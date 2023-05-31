@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fc9dd80dc0128c4ea8847f331e1c848, type: 3}
+  m_Name: BattleDB
+  m_EditorClassIdentifier: 
+  EnemyGroup:
+  - {x: -1, y: 0, z: -1, w: -1}
+  - {x: -1, y: 1, z: 2, w: -1}
+  - {x: -1, y: 3, z: -1, w: -1}
+  - {x: -1, y: 4, z: -1, w: -1}
+  - {x: -1, y: 5, z: -1, w: -1}
+  - {x: -1, y: 6, z: -1, w: -1}
+  - {x: -1, y: 7, z: -1, w: -1}
+  - {x: -1, y: 8, z: -1, w: -1}
+  - {x: -1, y: 9, z: -1, w: -1}
+  - {x: -1, y: 10, z: -1, w: -1}
+  - {x: -1, y: 11, z: -1, w: -1}
+  - {x: 12, y: 13, z: 14, w: -1}
+  - {x: -1, y: 15, z: -1, w: -1}
+  - {x: -1, y: 16, z: -1, w: -1}
+  - {x: -1, y: 17, z: 21, w: -1}
+  - {x: -1, y: 22, z: -1, w: -1}
+  - {x: 23, y: 23, z: 23, w: 23}
+  - {x: -1, y: 56, z: -1, w: -1}
+  - {x: -1, y: 57, z: -1, w: -1}
+  - {x: -1, y: 59, z: -1, w: -1}
+  - {x: -1, y: 60, z: -1, w: -1}
+  - {x: 66, y: 67, z: 68, w: 69}
+  - {x: -1, y: 74, z: 75, w: -1}
+  - {x: 76, y: 77, z: 78, w: 79}
+  - {x: 80, y: 81, z: 82, w: -1}
+  - {x: 83, y: 84, z: 85, w: 86}
+  - {x: 87, y: 88, z: 89, w: -1}
+  - {x: -1, y: 90, z: 91, w: -1}
+  buffName:
+  - "\u9632\u5FA1"
+  - "\u653B\u6483\u529BUP"
+  - "\u653B\u6483\u529BDOWN"
+  - "\u9632\u5FA1\u529BUP"
+  - "\u9632\u5FA1\u529BDOWN"
+  - "\u9B54\u6CD5\u529BUP"
+  - "\u9B54\u6CD5\u529BDOWN"
+  - "\u9B54\u9632\u529BUP"
+  - "\u9B54\u9632\u529BDOWN"
+  - "\u7D20\u65E9\u3055UP"
+  - "\u7D20\u65E9\u3055DOWN"
+  - "\u5F31\u9178\u6027"
+  - "\u5F37\u9178\u6027"
+  - "\u5F31\u5869\u57FA\u6027"
+  - "\u5F37\u5869\u57FA\u6027"
+  - "\u967D\u30A4\u30AA\u30F3"
+  - "\u9670\u30A4\u30AA\u30F3"
+  - "\u7D76\u5BFE\u96F6\u5EA6"
+  - "\u5F8B\u901F\u6BB5\u968E"
+  - "\u52B1\u8D77\u72B6\u614B"
+  - "\u653E\u5C04\u6027\u5D29\u58CA"
+  - "\u5206\u6790\u5B8C\u4E86"
+  - "\u8D85\u81E8\u754C\u6D41\u4F53(\u5168\uFF7D\uFF83UP)"
+  - "\u9AD8\u6E29\u9AD8\u5727"
+  - "\u56DE\u907FUP"
+  - "\u547D\u4E2DDOWN"
+  - "\u708E\u5438\u53CE"
+  - "\u6C34\u5438\u53CE"
+  - "\u96FB\u6C17\u5438\u53CE"
+  - "\u708E\u5C01\u5370"
+  - "\u6C34\u5C01\u5370"
+  - "\u96FB\u6C17\u5C01\u5370"
+  - "\u8010\u4E45"
+  - "\u6CE8\u76EE"
+  - "\u7570\u81ED"
+  - "\u80A5\u6599"
+  - "\u7121\u6575"
+  - "\u30AC\u30E9\u30B9"
+  - ATP
+  - 
+  death: 0101010100000000
+  turn: 3
+  itemID: -1
+  itemTarget: -1
+  auto: 0
+  priority: 0000000000000000000000000000000000000000000000000000000000000000
+  CharaName:
+  - "\u30C7\u30D0\u30C3\u30B01"
+  - "\u30C7\u30D0\u30C3\u30B02"
+  - "\u30C7\u30D0\u30C3\u30B03"
+  - "\u30C7\u30D0\u30C3\u30B04"
+  - "\u30EA\u30F3\u9178\u30AB\u30EB\u30B7\u30A6\u30E0"
+  - "\u9178\u7D20"
+  - "\u6C34"
+  - "\u6C34"

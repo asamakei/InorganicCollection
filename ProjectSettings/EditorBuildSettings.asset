@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Title.unity
+    guid: 788a09fb2a8d63948b93f6d51514f56f
+  - enabled: 1
+    path: Assets/Scenes/FirstTileMap.unity
+    guid: 0016a028b61462347b7b1b08be8fe6bb
+  - enabled: 1
+    path: Assets/Scenes/Battle.unity
+    guid: bfd0e347e9d7dec4dbcbd942dcbcddb1
+  - enabled: 1
+    path: Assets/Scenes/Menue.unity
+    guid: 5329e2904249e5b45b5e841a8e637916
+  - enabled: 1
+    path: Assets/Scenes/MainCamera.unity
+    guid: abb2749108e07684a927935566e44932
+  - enabled: 1
+    path: Assets/Scenes/Village1.unity
+    guid: 19f2e31b10dd7314688c79c5fce2fe56
+  - enabled: 1
+    path: Assets/Scenes/WaterFall.unity
+    guid: 3d24f15448fe68947b59a5afe0d9715f
+  - enabled: 1
+    path: Assets/Scenes/Village2.unity
+    guid: 341f87c36987e314e90dee4cdea500aa
+  - enabled: 1
+    path: Assets/Scenes/Forest.unity
+    guid: d0bddda995c8fd84994eaa5ece19ecad
+  - enabled: 1
+    path: Assets/Scenes/Port.unity
+    guid: 8e73f9b8ad3da0d46947c13d5d4f0d0d
+  - enabled: 1
+    path: Assets/Scenes/MonsterBank.unity
+    guid: 07f253d61c142bd4fac1a65b9948d209
+  - enabled: 1
+    path: Assets/Scenes/MonsterGene.unity
+    guid: 8f8028a758813af4fb111f4b68f96650
+  - enabled: 1
+    path: Assets/Scenes/Cave.unity
+    guid: 59eecaed13f485943883e33ba5041f4e
+  - enabled: 1
+    path: Assets/Scenes/Snow.unity
+    guid: e8b161ab9dd054e4a89a175c2bbeb7cb
+  - enabled: 1
+    path: Assets/Scenes/Village3.unity
+    guid: 022350b286e055041bfca69d11d90b4f
+  - enabled: 1
+    path: Assets/Scenes/Desert.unity
+    guid: 59bb10acbbcca8d4881ae0e3f3172d3a
+  - enabled: 1
+    path: Assets/Scenes/Village4.unity
+    guid: 9571773c2b3cb1c4787c2c3b60ae2531
+  - enabled: 1
+    path: Assets/Scenes/Magma.unity
+    guid: 19ebd6169c9b74840b0bf6052cb3c655
+  - enabled: 1
+    path: Assets/Scenes/Village5.unity
+    guid: cdedc161a4528af47a4e8ae65ea786c0
+  - enabled: 1
+    path: Assets/Scenes/Labo.unity
+    guid: ec918112cb37f3640815bcda8e7daf41
+  - enabled: 1
+    path: Assets/Scenes/Remains.unity
+    guid: 4f3a3f1014e2b484eb3a6ab46673ae36
+  - enabled: 1
+    path: Assets/Scenes/Final.unity
+    guid: eb3e98bcbe7e9a1489a6d242935efcee
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: 4e7ca3e053519f54ba68d56ae322b6bf
+  - enabled: 1
+    path: Assets/Scenes/Shop.unity
+    guid: b14825675541bf04fb3646c4a7465231
+  - enabled: 1
+    path: Assets/Scenes/NetWork.unity
+    guid: abd664f2fe340a240be0993ed1b543e0
+  m_configObjects: {}

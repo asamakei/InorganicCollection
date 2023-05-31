@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 836a00601a93fa744bfbff35633bf191, type: 3}
+  m_Name: SaveDatas
+  m_EditorClassIdentifier: 
+  SaveDataList:
+  - sceneName: FirstTileMap
+    spotName: "\u30C7\u30D0\u30C3\u30B0\u30EB\u30FC\u30E0"
+    ObjectName:
+    - hasu
+    - hasu (1)
+    - hasu (2)
+  - sceneName: Village1
+    spotName: "\u30E1\u30F3\u30C7\u30EC\u6751"
+    ObjectName:
+    - Person1
+    - Person2
+    - Person3
+    - Person4
+    - shop1
+    - Dr4
+    - def
+    - Dr
+    - def2
+  - sceneName: WaterFall
+    spotName: "\u30E1\u30F3\u30C7\u30EC\u6C34\u6E90"
+    ObjectName:
+    - Person10
+    - HasuChild
+    - Trainer
+    - hasu
+    - Human1
+  - sceneName: Village2
+    spotName: "\u30AA\u30B9\u30C8\u30EF\u30EB\u30C8\u306E\u6751"
+    ObjectName:
+    - BattleTutorial
+    - Person9
+    - Person8
+    - Person7
+    - Person6
+    - Person5
+    - Hatake
+    - Dr2
+    - Child1
+    - shop1
+  - sceneName: Forest
+    spotName: "\u30AA\u30B9\u30C8\u30EF\u30EB\u30C8\u306E\u68EE"
+    ObjectName:
+    - escapeHuman
+    - RisuChild
+    - Trainer
+  - sceneName: Port
+    spotName: "\u6E2F\u753A\u30CF\u30FC\u30D0\u30FC"
+    ObjectName:
+    - Person16
+    - Person15
+    - Person14
+    - Person13
+    - Person12
+    - Person11
+    - Dr3
+    - boat
+    - Joshu1
+    - Lead
+    - shop1
+    - BattleTutorial
+  - sceneName: Cave
+    spotName: "\u30DC\u30C3\u30B7\u30E5\u6D1E\u7A9F"
+    ObjectName:
+    - boat
+  - sceneName: Snow
+    spotName: "\u30BD\u30EB\u30D9\u96EA\u5C71"
+    ObjectName:
+    - boat
+    - Trainer
+  - sceneName: Village3
+    spotName: "\u30BD\u30EB\u30D9\u6751"
+    ObjectName:
+    - Person20
+    - Person19
+    - Person18
+    - Person17
+    - Dr4
+    - shop1
+    - BattleTutorial
+  - sceneName: Desert
+    spotName: "\u30D8\u30B9\u7802\u6F20"
+    ObjectName:
+    - boat
+    - Trainer
+  - sceneName: Village4
+    spotName: "\u30D8\u30B9\u306E\u30AA\u30A2\u30B7\u30B9"
+    ObjectName:
+    - Person26
+    - Person25
+    - Person24
+    - Person23
+    - Person22
+    - Person21
+    - Dr5
+    - shop1
+    - BattleTutorial
+  - sceneName: Magma
+    spotName: "\u30B7\u30E3\u30EB\u30EB\u6EB6\u5CA9\u5730\u5E2F"
+    ObjectName:
+    - Trainer
+  - sceneName: Village5
+    spotName: "\u30B7\u30E3\u30EB\u30EB\u306E\u96C6\u843D"
+    ObjectName:
+    - Person28
+    - Person27
+  - sceneName: Labo
+    spotName: "\u30E1\u30F3\u30C7\u30EC\u6751\u5730\u4E0B"
+    ObjectName: []
+  - sceneName: Remains
+    spotName: "\u30A2\u30DC\u30AC\u30C9\u907A\u8DE1"
+    ObjectName:
+    - Stain
+    - Sap
+    - Osui
+    - hasu
+    - hasu (1)
+    - hasu (2)
+    - shop1
+    - Trainer
+  - sceneName: Final
+    spotName: "\u9695\u77F3\u843D\u4E0B\u5730\u70B9"
+    ObjectName: []
+  - sceneName: Desert
+    spotName: "\u30D8\u30B9\u7802\u6F20"
+    ObjectName: []

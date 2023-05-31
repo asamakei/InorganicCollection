@@ -1,0 +1,8415 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68fe9442c904062458fa0e5d12e1f6ae, type: 3}
+  m_Name: AllyDatas
+  m_EditorClassIdentifier: 
+  AllyDataList:
+  - Name: "\u30A2\u30EB\u30DF\u30CB\u30A6\u30E0"
+    ID: 81
+    Level: 99
+    HP: 1703
+    NowHP: 1703
+    SP: 740
+    NowSP: 740
+    Attack: 659
+    Defence: 797
+    Magic: 885
+    MagicDef: 881
+    Speed: 737
+    Exp: 17000056
+    NextExp: 0
+    Equip: -1
+    CharaPt: 14
+    Skill: 000000000100000015000000580000004900000034000000120000001b0000003100000007000000
+    SkillUse: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+    Character: 0500000002000000
+    Grow: 15000000150000001500000015000000150000001500000015000000
+    preNumber: 0
+  - Name: "\u30B8\u30E5\u30E9\u30EB\u30DF\u30F3"
+    ID: 30
+    Level: 99
+    HP: 1459
+    NowHP: 1459
+    SP: 703
+    NowSP: 703
+    Attack: 714
+    Defence: 916
+    Magic: 692
+    MagicDef: 596
+    Speed: 877
+    Exp: 17000056
+    NextExp: 0
+    Equip: -1
+    CharaPt: 19
+    Skill: 00000000010000002e00000002000000210000002600000028000000490000001b00000020000000
+    SkillUse: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+    Character: 05000000
+    Grow: 14000000140000001400000014000000140000001400000014000000
+    preNumber: 1
+  - Name: "\u30E8\u30A6\u5316\u6C34\u7D20"
+    ID: 127
+    Level: 99
+    HP: 1511
+    NowHP: 1511
+    SP: 744
+    NowSP: 744
+    Attack: 785
+    Defence: 269
+    Magic: 448
+    MagicDef: 307
+    Speed: 866
+    Exp: 17000056
+    NextExp: 0
+    Equip: -1
+    CharaPt: 19
+    Skill: 00000000010000002b0000002c0000001d0000001c0000002e0000002f0000000700000009000000
+    SkillUse: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+    Character: 05000000
+    Grow: 14000000140000001400000014000000140000001400000014000000
+    preNumber: 2
+  - Name: "\u30CD\u30AA\u30F3"
+    ID: 11
+    Level: 99
+    HP: 1000
+    NowHP: 1000
+    SP: 755
+    NowSP: 755
+    Attack: 351
+    Defence: 911
+    Magic: 866
+    MagicDef: 614
+    Speed: 844
+    Exp: 8500190
+    NextExp: 0
+    Equip: -1
+    CharaPt: 19
+    Skill: 000000000100000005000000070000000900000018000000240000004b0000005f00000022000000
+    SkillUse: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+    Character: 05000000
+    Grow: 1e0000001e0000001e0000001e0000001e0000001e0000001e000000
+    preNumber: 3
+  - Name: "\u30AF\u30ED\u30E0\u9178\u9280"
+    ID: 92
+    Level: 1
+    HP: 74
+    NowHP: 74
+    SP: 61
+    NowSP: 61
+    Attack: 51
+    Defence: 52
+    Magic: 51
+    MagicDef: 52
+    Speed: 51
+    Exp: 0
+    NextExp: 16
+    Equip: -1
+    CharaPt: 1
+    Skill: 0000000001000000020000000d000000110000001300000016000000210000002e00000030000000
+    SkillUse: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+    Character: 01000000
+    Grow: 0d0000000a0000000a0000000b0000000a0000000b0000000a000000
+    preNumber: 5
+  - Name: "\u30A2\u30DE\u30EB\u30AC\u30E0"
+    ID: 29
+    Level: 1
+    HP: 83
+    NowHP: 83
+    SP: 68
+    NowSP: 68
+    Attack: 58
+    Defence: 58
+    Magic: 59
+    MagicDef: 59
+    Speed: 57
+    Exp: 0
+    NextExp: 16
+    Equip: -1
+    CharaPt: 1
+    Skill: 00000000010000001000000012000000
+    SkillUse: 00000000000000000000000000000000
+    Character: 01000000
+    Grow: 0b000000060000000600000006000000070000000700000005000000
+    preNumber: 6
+  - Name: "\u56DB\u9178\u5316\u4E8C\u7A92\u7D20"
+    ID: 136
+    Level: 1
+    HP: 67
+    NowHP: 37
+    SP: 52
+    NowSP: 52
+    Attack: 42
+    Defence: 40
+    Magic: 42
+    MagicDef: 41
+    Speed: 42
+    Exp: 0
+    NextExp: 16
+    Equip: -1
+    CharaPt: 1
+    Skill: 0000000001000000040000000d00000013000000
+    SkillUse: 0000000000000000000000000000000000000000
+    Character: 010000000100000001000000
+    Grow: 0e000000090000000900000007000000090000000800000009000000
+    preNumber: 7
+  - Name: "\u6C34\u9178\u5316\u30AB\u30EA\u30A6\u30E0"
+    ID: 128
+    Level: 54
+    HP: 381
+    NowHP: 381
+    SP: 265
+    NowSP: 265
+    Attack: 369
+    Defence: 204
+    Magic: 254
+    MagicDef: 198
+    Speed: 306
+    Exp: 32341
+    NextExp: 1065
+    Equip: -1
+    CharaPt: 9
+    Skill: 00000000010000000d0000001600000030000000380000003c000000
+    SkillUse: 00000000000000000000000000000000000000000000000000000000
+    Character: 04000000
+    Grow: 06000000040000000600000003000000040000000300000005000000
+    preNumber: 8
+  - Name: "\u30CB\u30AF\u30ED\u30E0"
+    ID: 116
+    Level: 1
+    HP: 79
+    NowHP: 79
+    SP: 65
+    NowSP: 65
+    Attack: 54
+    Defence: 57
+    Magic: 57
+    MagicDef: 57
+    Speed: 55
+    Exp: 0
+    NextExp: 16
+    Equip: -1
+    CharaPt: 1
+    Skill: 000000000100000002000000120000001e0000002100000031000000
+    SkillUse: 00000000000000000000000000000000000000000000000000000000
+    Character: 01000000
+    Grow: 08000000040000000300000006000000060000000600000004000000
+    preNumber: 9
+  - Name: "\u30AC\u30EA\u30A6\u30E0"
+    ID: 73
+    Level: 60
+    HP: 610
+    NowHP: 610
+    SP: 166
+    NowSP: 166
+    Attack: 265
+    Defence: 272
+    Magic: 214
+    MagicDef: 269
+    Speed: 219
+    Exp: 43257
+    NextExp: 1149
+    Equip: -1
+    CharaPt: 60
+    Skill: 00000000010000006400000040000000150000002d0000001e00000012000000
+    SkillUse: 0000000000000000000000000000000000000000000000000000000000000000
+    Character: 0100000001000000
+    Grow: 09000000020000000400000004000000030000000400000003000000
+    preNumber: 11
+  - Name: "\u9285"
+    ID: 80
+    Level: 5
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 0000000000000000
+    SkillUse: 0000000000000000
+    Character: 00000000
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 12
+  - Name: "\u30BF\u30F3\u30B0\u30B9\u30C6\u30F3"
+    ID: 9
+    Level: 30
+    HP: 228
+    NowHP: 228
+    SP: 192
+    NowSP: 192
+    Attack: 150
+    Defence: 150
+    Magic: 150
+    MagicDef: 150
+    Speed: 150
+    Exp: 0
+    NextExp: 683
+    Equip: -1
+    CharaPt: 30
+    Skill: 00000000010000004a000000120000001c0000001b0000000c000000
+    SkillUse: 00000000010000000100000001000000010000000100000001000000
+    Character: 0100000001000000
+    Grow: 0000000000000000000000000000000000000000000000000000000000000000
+    preNumber: 13
+  - Name: "\u30B2\u30EB\u30DE\u30CB\u30A6\u30E0"
+    ID: 72
+    Level: 60
+    HP: 614
+    NowHP: 614
+    SP: 214
+    NowSP: 214
+    Attack: 272
+    Defence: 254
+    Magic: 269
+    MagicDef: 278
+    Speed: 205
+    Exp: 43551
+    NextExp: 855
+    Equip: -1
+    CharaPt: 60
+    Skill: 00000000010000005c000000640000001b000000050000000c00000023000000
+    SkillUse: 0000000000000000000000000000000000000000000000000000000000000000
+    Character: 0100000001000000
+    Grow: 09000000030000000400000004000000040000000400000003000000
+    preNumber: 14
+  - Name: "\u9EC4\u9285"
+    ID: 161
+    Level: 20
+    HP: 268
+    NowHP: 268
+    SP: 178
+    NowSP: 178
+    Attack: 186
+    Defence: 186
+    Magic: 185
+    MagicDef: 189
+    Speed: 126
+    Exp: 3445
+    NextExp: 296
+    Equip: -1
+    CharaPt: 20
+    Skill: 0000000001000000020000002100000022000000240000002e0000004a000000
+    SkillUse: 0000000000000000000000000000000000000000000000000000000000000000
+    Character: 01000000
+    Grow: 0b000000060000000700000008000000070000000700000005000000
+    preNumber: 15
+  - Name: "\u30AF\u30ED\u30E0\u9178\u30D0\u30EA\u30A6\u30E0"
+    ID: 100
+    Level: 23
+    HP: 208
+    NowHP: 208
+    SP: 85
+    NowSP: 85
+    Attack: 93
+    Defence: 103
+    Magic: 70
+    MagicDef: 139
+    Speed: 75
+    Exp: 5427
+    NextExp: 349
+    Equip: -1
+    CharaPt: 23
+    Skill: 00000000010000003e000000
+    SkillUse: 000000000000000000000000
+    Character: 0100000001000000
+    Grow: 07000000020000000300000003000000020000000500000002000000
+    preNumber: 16
+  - Name: "\u30BB\u30B7\u30A6\u30E0"
+    ID: 117
+    Level: 1
+    HP: 72
+    NowHP: 72
+    SP: 59
+    NowSP: 59
+    Attack: 50
+    Defence: 47
+    Magic: 48
+    MagicDef: 49
+    Speed: 49
+    Exp: 0
+    NextExp: 16
+    Equip: -1
+    CharaPt: 1
+    Skill: 0000000001000000
+    SkillUse: 0000000000000000
+    Character: 010000000100000001000000
+    Grow: 08000000050000000600000003000000040000000500000005000000
+    preNumber: 17
+  - Name: "\u30B9\u30C8\u30ED\u30F3\u30C1\u30A6\u30E0"
+    ID: 64
+    Level: 33
+    HP: 372
+    NowHP: 144
+    SP: 105
+    NowSP: 105
+    Attack: 92
+    Defence: 132
+    Magic: 161
+    MagicDef: 124
+    Speed: 164
+    Exp: 11610
+    NextExp: 555
+    Equip: -1
+    CharaPt: 33
+    Skill: 00000000010000004900000064000000400000002d000000
+    SkillUse: 000000000000000000000000000000000000000000000000
+    Character: 010000000100000001000000
+    Grow: 0a000000020000000200000003000000040000000300000004000000
+    preNumber: 18
+  - Name: "\u9178\u5316\u30C1\u30BF\u30F3"
+    ID: 156
+    Level: 7
+    HP: 124
+    NowHP: 0
+    SP: 76
+    NowSP: 76
+    Attack: 77
+    Defence: 91
+    Magic: 74
+    MagicDef: 83
+    Speed: 85
+    Exp: 360
+    NextExp: 39
+    Equip: -1
+    CharaPt: 7
+    Skill: 0000000001000000050000000d0000001f0000002500000045000000
+    SkillUse: 00000000000000000000000000000000000000000000000000000000
+    Character: 0100000001000000
+    Grow: 09000000040000000500000007000000050000000600000006000000
+    preNumber: 19
+  - Name: "\u91D1"
+    ID: 65
+    Level: 31
+    HP: 358
+    NowHP: 358
+    SP: 162
+    NowSP: 162
+    Attack: 128
+    Defence: 188
+    Magic: 146
+    MagicDef: 186
+    Speed: 87
+    Exp: 10415
+    NextExp: 345
+    Equip: -1
+    CharaPt: 31
+    Skill: 00000000010000004a000000070000004200000022000000
+    SkillUse: 000000000000000000000000000000000000000000000000
+    Character: 01000000
+    Grow: 0a000000040000000300000005000000040000000500000002000000
+    preNumber: 20
+  - Name: "\u30EA\u30F3\u9178\u30AB\u30EB\u30B7\u30A6\u30E0"
+    ID: 38
+    Level: 37
+    HP: 234
+    NowHP: 234
+    SP: 148
+    NowSP: 148
+    Attack: 143
+    Defence: 173
+    Magic: 176
+    MagicDef: 136
+    Speed: 186
+    Exp: 15374
+    NextExp: 277
+    Equip: -1
+    CharaPt: 37
+    Skill: 00000000010000003e00000022000000170000002e00000030000000
+    SkillUse: 00000000000000000000000000000000000000000000000000000000
+    Character: 01000000
+    Grow: 05000000030000000300000004000000040000000300000004000000
+    preNumber: 21
+  - Name: "\u30EB\u30D3\u30FC"
+    ID: 36
+    Level: 1
+    HP: 63
+    NowHP: 63
+    SP: 46
+    NowSP: 46
+    Attack: 36
+    Defence: 38
+    Magic: 38
+    MagicDef: 37
+    Speed: 37
+    Exp: 0
+    NextExp: 16
+    Equip: -1
+    CharaPt: 1
+    Skill: 0000000001000000
+    SkillUse: 0000000000000000
+    Character: 01000000
+    Grow: 0b000000040000000400000006000000060000000500000005000000
+    preNumber: 22
+  - Name: "\u7A92\u7D20"
+    ID: 47
+    Level: 5
+    HP: 68
+    NowHP: 68
+    SP: 59
+    NowSP: 5
+    Attack: 44
+    Defence: 52
+    Magic: 50
+    MagicDef: 47
+    Speed: 52
+    Exp: 301
+    NextExp: 21
+    Equip: -1
+    CharaPt: 5
+    Skill: 00000000010000001300000054000000
+    SkillUse: 00000000000000000000000000000000
+    Character: 01000000
+    Grow: 09000000030000000300000004000000040000000300000004000000
+    preNumber: 23
+  - Name: "\u30EA\u30F3\u9178"
+    ID: 57
+    Level: 17
+    HP: 150
+    NowHP: 150
+    SP: 106
+    NowSP: 106
+    Attack: 100
+    Defence: 62
+    Magic: 81
+    MagicDef: 117
+    Speed: 100
+    Exp: 2843
+    NextExp: 278
+    Equip: -1
+    CharaPt: 17
+    Skill: 0000000001000000620000005400000038000000
+    SkillUse: 0000000000000000000000000000000000000000
+    Character: 01000000
+    Grow: 06000000040000000400000002000000030000000500000004000000
+    preNumber: 24
+  - Name: "\u30D8\u30AD\u30B5\u30D5\u30EB\u30AA\u30ED\u30B1\u30A4\u9178"
+    ID: 149
+    Level: 3
+    HP: 74
+    NowHP: 66
+    SP: 55
+    NowSP: 55
+    Attack: 50
+    Defence: 49
+    Magic: 55
+    MagicDef: 54
+    Speed: 51
+    Exp: 60
+    NextExp: 14
+    Equip: -1
+    CharaPt: 3
+    Skill: 00000000010000000b0000000d0000001400000016000000220000003b000000
+    SkillUse: 0000000000000000000000000000000000000000000000000000000000000000
+    Character: 01000000
+    Grow: 07000000030000000500000004000000060000000600000005000000
+    preNumber: 25
+  - Name: "\u30D7\u30E9\u30C1\u30CA"
+    ID: 77
+    Level: 70
+    HP: 789
+    NowHP: 789
+    SP: 322
+    NowSP: 322
+    Attack: 234
+    Defence: 362
+    Magic: 385
+    MagicDef: 319
+    Speed: 235
+    Exp: 60746
+    NextExp: 1469
+    Equip: -1
+    CharaPt: 70
+    Skill: 00000000010000004a00000042000000050000000c000000020000002e000000
+    SkillUse: 0000000000000000000000000000000000000000000000000000000000000000
+    Character: 0100000001000000
+    Grow: 0a000000040000000300000005000000050000000400000003000000
+    preNumber: 26
+  - Name: "\u9752\u9285"
+    ID: 155
+    Level: 8
+    HP: 200
+    NowHP: 200
+    SP: 141
+    NowSP: 141
+    Attack: 147
+    Defence: 155
+    Magic: 144
+    MagicDef: 142
+    Speed: 146
+    Exp: 470
+    NextExp: 57
+    Equip: -1
+    CharaPt: 8
+    Skill: 000000000100000006000000090000000c0000000f0000002100000022000000290000004a000000
+    SkillUse: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+    Character: 01000000
+    Grow: 0d00000007000000090000000a000000080000000900000008000000
+    preNumber: 27
+  - Name: "\u9AD8\u5EA6\u3055\u3089\u3057\u7C89"
+    ID: 105
+    Level: 5
+    HP: 136
+    NowHP: 136
+    SP: 99
+    NowSP: 99
+    Attack: 89
+    Defence: 87
+    Magic: 101
+    MagicDef: 95
+    Speed: 93
+    Exp: 195
+    NextExp: 5
+    Equip: -1
+    CharaPt: 5
+    Skill: 00000000010000000d0000000e0000001000000016000000220000005d000000
+    SkillUse: 0000000000000000000000000000000000000000000000000000000000000000
+    Character: 01000000
+    Grow: 110000000c0000000b0000000b0000000d0000000d0000000c000000
+    preNumber: 28
+  - Name: "\u9178\u5316\u925B(\u2163)"
+    ID: 34
+    Level: 5
+    HP: 96
+    NowHP: 96
+    SP: 61
+    NowSP: 61
+    Attack: 59
+    Defence: 61
+    Magic: 50
+    MagicDef: 62
+    Speed: 65
+    Exp: 175
+    NextExp: 25
+    Equip: -1
+    CharaPt: 5
+    Skill: 00000000010000000d0000002300000048000000
+    SkillUse: 0000000000000000000000000000000000000000
+    Character: 01000000
+    Grow: 08000000040000000500000006000000040000000600000006000000
+    preNumber: 29
+  - Name: "\u30C1\u30BF\u30F3\u5408\u91D1"
+    ID: 157
+    Level: 5
+    HP: 135
+    NowHP: 135
+    SP: 97
+    NowSP: 97
+    Attack: 98
+    Defence: 99
+    Magic: 96
+    MagicDef: 95
+    Speed: 98
+    Exp: 190
+    NextExp: 10
+    Equip: -1
+    CharaPt: 5
+    Skill: 0000000001000000050000001f00000021000000250000002d0000002f0000003100000049000000
+    SkillUse: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+    Character: 01000000
+    Grow: 0d00000007000000090000000a00000009000000090000000a000000
+    preNumber: 30
+  - Name: "\u8B0E\u306E\u7269\u8CEA"
+    ID: 162
+    Level: 6
+    HP: 103
+    NowHP: 90
+    SP: 70
+    NowSP: 70
+    Attack: 61
+    Defence: 53
+    Magic: 56
+    MagicDef: 60
+    Speed: 60
+    Exp: 275
+    NextExp: 15
+    Equip: -1
+    CharaPt: 6
+    Skill: 00000000010000000d00000016000000
+    SkillUse: 00000000000000000000000000000000
+    Character: 
+    Grow: 08000000040000000400000004000000040000000400000004000000
+    preNumber: 31
+  - Name: "\u786B\u9178\u925B"
+    ID: 144
+    Level: 1
+    HP: 70
+    NowHP: 70
+    SP: 53
+    NowSP: 53
+    Attack: 44
+    Defence: 43
+    Magic: 43
+    MagicDef: 44
+    Speed: 44
+    Exp: 0
+    NextExp: 16
+    Equip: -1
+    CharaPt: 1
+    Skill: 00000000010000000200000004000000160000001d0000001e00000021000000230000002c000000
+    SkillUse: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+    Character: 01000000
+    Grow: 110000000a0000000b0000000a0000000a0000000b0000000b000000
+    preNumber: 32
+  - Name: "\u81ED\u5316\u6C34\u7D20"
+    ID: 45
+    Level: 11
+    HP: 121
+    NowHP: 85
+    SP: 92
+    NowSP: 92
+    Attack: 99
+    Defence: 92
+    Magic: 99
+    MagicDef: 77
+    Speed: 87
+    Exp: 1010
+    NextExp: 22
+    Equip: -1
+    CharaPt: 11
+    Skill: 00000000010000000d0000004d0000003b0000002c000000
+    SkillUse: 000000000000000000000000000000000000000000000000
+    Character: 0100000001000000
+    Grow: 06000000040000000600000005000000060000000400000005000000
+    preNumber: 33
+  - Name: "\u70AD\u9178\u30CA\u30C8\u30EA\u30A6\u30E0"
+    ID: 18
+    Level: 1
+    HP: 63
+    NowHP: 63
+    SP: 50
+    NowSP: 50
+    Attack: 40
+    Defence: 39
+    Magic: 40
+    MagicDef: 40
+    Speed: 40
+    Exp: 0
+    NextExp: 16
+    Equip: -1
+    CharaPt: 1
+    Skill: 0000000001000000030000000d000000100000001300000016000000
+    SkillUse: 00000000000000000000000000000000000000000000000000000000
+    Character: 01000000
+    Grow: 0b000000080000000800000007000000080000000800000008000000
+    preNumber: 34
+  - Name: "\u30B7\u30EA\u30AB\u30B2\u30EB"
+    ID: 21
+    Level: 1
+    HP: 66
+    NowHP: 9
+    SP: 51
+    NowSP: 51
+    Attack: 39
+    Defence: 42
+    Magic: 42
+    MagicDef: 41
+    Speed: 39
+    Exp: 0
+    NextExp: 16
+    Equip: -1
+    CharaPt: 1
+    Skill: 000000000100000002000000050000000d00000010000000160000002200000030000000
+    SkillUse: 000000000000000000000000000000000000000000000000000000000000000000000000
+    Character: 01000000
+    Grow: 0e00000009000000070000000a0000000a0000000900000007000000
+    preNumber: 35
+  - Name: "\u30EA\u30F3\u9178"
+    ID: 57
+    Level: 17
+    HP: 150
+    NowHP: 150
+    SP: 110
+    NowSP: 110
+    Attack: 97
+    Defence: 68
+    Magic: 82
+    MagicDef: 115
+    Speed: 92
+    Exp: 2942
+    NextExp: 179
+    Equip: -1
+    CharaPt: 17
+    Skill: 0000000001000000620000005400000038000000
+    SkillUse: 0000000000000000000000000000000000000000
+    Character: 01000000
+    Grow: 06000000040000000400000002000000030000000500000004000000
+    preNumber: 36
+  - Name: "\u6FC3\u5869\u9178"
+    ID: 112
+    Level: 1
+    HP: 64
+    NowHP: 45
+    SP: 49
+    NowSP: 14
+    Attack: 580
+    Defence: 38
+    Magic: 39
+    MagicDef: 38
+    Speed: 500
+    Exp: 0
+    NextExp: 16
+    Equip: -1
+    CharaPt: 1
+    Skill: 0000000001000000040000000b0000001600000017000000220000002e00000030000000
+    SkillUse: 000000000000000000000000000000000000000000000000000000000000000000000000
+    Character: 0100000001000000
+    Grow: 0c000000070000000900000006000000070000000600000008000000
+    preNumber: 37
+  - Name: "\u4E8C\u9178\u5316\u30DE\u30F3\u30AC\u30F3"
+    ID: 138
+    Level: 8
+    HP: 125
+    NowHP: 125
+    SP: 86
+    NowSP: 86
+    Attack: 57
+    Defence: 59
+    Magic: 68
+    MagicDef: 78
+    Speed: 62
+    Exp: 475
+    NextExp: 52
+    Equip: -1
+    CharaPt: 8
+    Skill: 00000000010000000d00000016000000210000004f000000
+    SkillUse: 000000000000000000000000000000000000000000000000
+    Character: 01000000
+    Grow: 08000000050000000300000003000000050000000600000003000000
+    preNumber: 38
+  - Name: "\u30AB\u30C9\u30DF\u30A6\u30E0"
+    ID: 109
+    Level: 1
+    HP: 76
+    NowHP: 71
+    SP: 63
+    NowSP: 63
+    Attack: 55
+    Defence: 55
+    Magic: 53
+    MagicDef: 52
+    Speed: 52
+    Exp: 0
+    NextExp: 16
+    Equip: -1
+    CharaPt: 1
+    Skill: 0000000001000000090000000d000000160000001c0000001f0000002c000000
+    SkillUse: 0000000000000000000000000000000000000000000000000000000000000000
+    Character: 01000000
+    Grow: 08000000050000000700000007000000050000000400000004000000
+    preNumber: 39
+  - Name: "\u6C34\u9178\u5316\u30DE\u30B0\u30CD\u30B7\u30A6\u30E0"
+    ID: 130
+    Level: 1
+    HP: 69
+    NowHP: 69
+    SP: 52
+    NowSP: 52
+    Attack: 43
+    Defence: 41
+    Magic: 42
+    MagicDef: 43
+    Speed: 42
+    Exp: 0
+    NextExp: 16
+    Equip: -1
+    CharaPt: 1
+    Skill: 00000000010000000b0000000d0000000e00000010000000110000001600000023000000
+    SkillUse: 000000000000000000000000000000000000000000000000000000000000000000000000
+    Character: 01000000
+    Grow: 0f000000080000000900000007000000080000000900000008000000
+    preNumber: 40
+  - Name: "\u30D5\u30C3\u5316\u9280"
+    ID: 98
+    Level: 5
+    HP: 115
+    NowHP: 91
+    SP: 95
+    NowSP: 95
+    Attack: 87
+    Defence: 76
+    Magic: 87
+    MagicDef: 84
+    Speed: 78
+    Exp: 185
+    NextExp: 15
+    Equip: -1
+    CharaPt: 5
+    Skill: 0000000001000000020000000b0000000d000000140000001600000023000000300000002c000000
+    SkillUse: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+    Character: 01000000
+    Grow: 0b000000080000000900000007000000090000000900000008000000
+    preNumber: 41
+  - Name: "\u30DC\u30FC\u30AD\u30B5\u30A4\u30C8"
+    ID: 37
+    Level: 53
+    HP: 547
+    NowHP: 547
+    SP: 187
+    NowSP: 187
+    Attack: 241
+    Defence: 305
+    Magic: 197
+    MagicDef: 180
+    Speed: 178
+    Exp: 33676
+    NextExp: 228
+    Equip: -1
+    CharaPt: 53
+    Skill: 000000000100000022000000210000002f0000003000000031000000
+    SkillUse: 00000000000000000000000000000000000000000000000000000000
+    Character: 01000000
+    Grow: 09000000030000000400000005000000030000000300000003000000
+    preNumber: 42
+  - Name: "\u786B\u5316\u30DE\u30F3\u30AC\u30F3"
+    ID: 133
+    Level: 20
+    HP: 329
+    NowHP: 0
+    SP: 209
+    NowSP: 209
+    Attack: 181
+    Defence: 241
+    Magic: 227
+    MagicDef: 214
+    Speed: 211
+    Exp: 3610
+    NextExp: 131
+    Equip: -1
+    CharaPt: 20
+    Skill: 00000000010000000a0000000b0000000d00000014000000160000001f0000002300000012000000
+    SkillUse: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+    Character: 01000000
+    Grow: 0e00000008000000080000000a0000000a0000000800000008000000
+    preNumber: 43
+  - Name: "\u30B8\u30E5\u30E9\u30EB\u30DF\u30F3"
+    ID: 30
+    Level: 20
+    HP: 282
+    NowHP: 0
+    SP: 220
+    NowSP: 208
+    Attack: 194
+    Defence: 206
+    Magic: 198
+    MagicDef: 178
+    Speed: 218
+    Exp: 3610
+    NextExp: 131
+    Equip: -1
+    CharaPt: 20
+    Skill: 0000000001000000020000000b0000001f0000002100000023000000490000002500000015000000
+    SkillUse: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+    Character: 01000000
+    Grow: 0c000000080000000800000009000000080000000700000009000000
+    preNumber: 44
+  - Name: "\u6C34\u9178\u5316\u925B"
+    ID: 145
+    Level: 1
+    HP: 64
+    NowHP: 64
+    SP: 47
+    NowSP: 47
+    Attack: 39
+    Defence: 37
+    Magic: 37
+    MagicDef: 38
+    Speed: 38
+    Exp: 0
+    NextExp: 16
+    Equip: -1
+    CharaPt: 1
+    Skill: 00000000010000000c0000001d0000001e000000230000002c0000002f000000
+    SkillUse: 0000000000000000000000000000000000000000000000000000000000000000
+    Character: 01000000
+    Grow: 0c000000050000000700000005000000050000000600000006000000
+    preNumber: 45
+  - Name: "\u786B\u5316\u4E9C\u925B"
+    ID: 160
+    Level: 1
+    HP: 60
+    NowHP: 60
+    SP: 47
+    NowSP: 47
+    Attack: 39
+    Defence: 38
+    Magic: 37
+    MagicDef: 38
+    Speed: 37
+    Exp: 0
+    NextExp: 16
+    Equip: -1
+    CharaPt: 1
+    Skill: 00000000010000000e000000100000001d0000001e000000210000002c0000002e000000
+    SkillUse: 000000000000000000000000000000000000000000000000000000000000000000000000
+    Character: 01000000
+    Grow: 07000000040000000600000005000000040000000500000004000000
+    preNumber: 46
+  - Name: "\u6C34\u9178\u5316\u4E9C\u925B"
+    ID: 159
+    Level: 1
+    HP: 60
+    NowHP: 60
+    SP: 47
+    NowSP: 47
+    Attack: 39
+    Defence: 38
+    Magic: 38
+    MagicDef: 40
+    Speed: 38
+    Exp: 0
+    NextExp: 16
+    Equip: -1
+    CharaPt: 1
+    Skill: 00000000010000000d0000001000000016000000210000002e000000
+    SkillUse: 00000000000000000000000000000000000000000000000000000000
+    Character: 01000000
+    Grow: 07000000040000000600000005000000050000000700000005000000
+    preNumber: 47
+  - Name: "\u5869\u5316\u925B"
+    ID: 142
+    Level: 5
+    HP: 112
+    NowHP: 112
+    SP: 61
+    NowSP: 61
+    Attack: 58
+    Defence: 56
+    Magic: 49
+    MagicDef: 59
+    Speed: 55
+    Exp: 130
+    NextExp: 70
+    Equip: -1
+    CharaPt: 5
+    Skill: 000000000100000010000000230000000b000000
+    SkillUse: 0000000000000000000000000000000000000000
+    Character: 01000000
+    Grow: 0b000000040000000500000004000000040000000500000005000000
+    preNumber: 48
+  - Name: "\u786B\u5316\u9285"
+    ID: 120
+    Level: 1
+    HP: 62
+    NowHP: 62
+    SP: 47
+    NowSP: 47
+    Attack: 38
+    Defence: 38
+    Magic: 37
+    MagicDef: 40
+    Speed: 37
+    Exp: 0
+    NextExp: 16
+    Equip: -1
+    CharaPt: 1
+    Skill: 0000000001000000020000000a0000000e0000001d0000001e000000210000002c000000
+    SkillUse: 000000000000000000000000000000000000000000000000000000000000000000000000
+    Character: 01000000
+    Grow: 09000000040000000500000005000000040000000700000004000000
+    preNumber: 49
+  - Name: "\u30D9\u30EA\u30EA\u30A6\u30E0"
+    ID: 59
+    Level: 1
+    HP: 69
+    NowHP: 18
+    SP: 53
+    NowSP: 53
+    Attack: 45
+    Defence: 44
+    Magic: 44
+    MagicDef: 44
+    Speed: 44
+    Exp: 0
+    NextExp: 16
+    Equip: -1
+    CharaPt: 1
+    Skill: 00000000010000000b0000000d0000001400000016000000220000002300000026000000
+    SkillUse: 000000000000000000000000000000000000000000000000000000000000000000000000
+    Character: 0100000001000000
+    Grow: 0f000000090000000b0000000a0000000a0000000a0000000a000000
+    preNumber: 50
+  - Name: "\u9ED2\u925B"
+    ID: 16
+    Level: 2
+    HP: 39
+    NowHP: 39
+    SP: 50
+    NowSP: 50
+    Attack: 37
+    Defence: 37
+    Magic: 41
+    MagicDef: 39
+    Speed: 37
+    Exp: 55
+    NextExp: 23
+    Equip: -1
+    CharaPt: 2
+    Skill: 0000000001000000
+    SkillUse: 0000000000000000
+    Character: 010000000100000001000000
+    Grow: 06000000040000000300000003000000040000000500000005000000
+    preNumber: 51
+  - Name: "\u9ED2\u925B"
+    ID: 16
+    Level: 2
+    HP: 34
+    NowHP: 34
+    SP: 48
+    NowSP: 48
+    Attack: 35
+    Defence: 32
+    Magic: 37
+    MagicDef: 42
+    Speed: 37
+    Exp: 74
+    NextExp: 4
+    Equip: -1
+    CharaPt: 2
+    Skill: 0000000001000000
+    SkillUse: 0000000000000000
+    Character: 010000000100000001000000
+    Grow: 06000000040000000300000003000000040000000500000005000000
+    preNumber: 52
+  - Name: "\u9ED2\u925B"
+    ID: 16
+    Level: 2
+    HP: 44
+    NowHP: 44
+    SP: 48
+    NowSP: 48
+    Attack: 35
+    Defence: 33
+    Magic: 40
+    MagicDef: 38
+    Speed: 39
+    Exp: 68
+    NextExp: 10
+    Equip: -1
+    CharaPt: 2
+    Skill: 0000000001000000
+    SkillUse: 0000000000000000
+    Character: 010000000100000001000000
+    Grow: 06000000040000000300000003000000040000000500000005000000
+    preNumber: 53
+  - Name: "\u9ED2\u925B"
+    ID: 16
+    Level: 6
+    HP: 66
+    NowHP: 60
+    SP: 65
+    NowSP: 65
+    Attack: 51
+    Defence: 45
+    Magic: 48
+    MagicDef: 63
+    Speed: 65
+    Exp: 246
+    NextExp: 85
+    Equip: -1
+    CharaPt: 6
+    Skill: 00000000010000001000000050000000
+    SkillUse: 00000000000000000000000000000000
+    Character: 010000000100000001000000
+    Grow: 06000000040000000300000003000000040000000500000005000000
+    preNumber: 54
+  - Name: "\u9ED2\u925B"
+    ID: 16
+    Level: 6
+    HP: 56
+    NowHP: 56
+    SP: 66
+    NowSP: 66
+    Attack: 52
+    Defence: 51
+    Magic: 48
+    MagicDef: 61
+    Speed: 58
+    Exp: 251
+    NextExp: 80
+    Equip: -1
+    CharaPt: 6
+    Skill: 00000000010000001000000050000000
+    SkillUse: 00000000000000000000000000000000
+    Character: 010000000100000001000000
+    Grow: 06000000040000000300000003000000040000000500000005000000
+    preNumber: 55
+  - Name: "\u30A2\u30EB\u30B4\u30F3"
+    ID: 12
+    Level: 73
+    HP: 670
+    NowHP: 574
+    SP: 503
+    NowSP: 468
+    Attack: 311
+    Defence: 553
+    Magic: 547
+    MagicDef: 479
+    Speed: 500
+    Exp: 63865
+    NextExp: 1632
+    Equip: -1
+    CharaPt: 53
+    Skill: 00000000010000000400000006000000090000001600000020000000240000004b0000005f000000
+    SkillUse: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+    Character: 03000000
+    Grow: 08000000060000000400000007000000070000000600000006000000
+    preNumber: 56
+  - Name: "\u30B1\u30A4\u7D20"
+    ID: 79
+    Level: 91
+    HP: 792
+    NowHP: 775
+    SP: 606
+    NowSP: 606
+    Attack: 333
+    Defence: 661
+    Magic: 667
+    MagicDef: 572
+    Speed: 593
+    Exp: 106648
+    NextExp: 728
+    Equip: -1
+    CharaPt: 11
+    Skill: 00000000010000000b0000000c000000100000002100000022000000230000005c00000024000000
+    SkillUse: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+    Character: 05000000
+    Grow: 08000000060000000400000007000000070000000600000006000000
+    preNumber: 57
+  - Name: "\u30CB\u30DB\u30CB\u30A6\u30E0"
+    ID: 74
+    Level: 80
+    HP: 607
+    NowHP: 603
+    SP: 284
+    NowSP: 256
+    Attack: 447
+    Defence: 200
+    Magic: 352
+    MagicDef: 338
+    Speed: 408
+    Exp: 83123
+    NextExp: 327
+    Equip: -1
+    CharaPt: 0
+    Skill: 00000000010000001f0000001e00000002000000310000000c0000001800000012000000
+    SkillUse: 000000000000000000000000000000000000000000000000000000000000000000000000
+    Character: 0500000001000000
+    Grow: 07000000030000000500000002000000040000000400000005000000
+    preNumber: 58
+  - Name: "\u659C\u65B9\u786B\u9EC4"
+    ID: 2
+    Level: 1
+    HP: 67
+    NowHP: 0
+    SP: 52
+    NowSP: 33
+    Attack: 43
+    Defence: 43
+    Magic: 42
+    MagicDef: 43
+    Speed: 43
+    Exp: 0
+    NextExp: 16
+    Equip: -1
+    CharaPt: 1
+    Skill: 00000000010000002b0000002c000000
+    SkillUse: 00000000000000000000000000000000
+    Character: 0100000001000000
+    Grow: 09000000040000000500000005000000040000000500000005000000
+    preNumber: 59
+  - Name: "\u30B5\u30D5\u30A1\u30A4\u30A2"
+    ID: 25
+    Level: 1
+    HP: 63
+    NowHP: 63
+    SP: 47
+    NowSP: 47
+    Attack: 36
+    Defence: 38
+    Magic: 38
+    MagicDef: 37
+    Speed: 37
+    Exp: 0
+    NextExp: 16
+    Equip: -1
+    CharaPt: 1
+    Skill: 0000000001000000
+    SkillUse: 0000000000000000
+    Character: 01000000
+    Grow: 0b000000050000000400000006000000060000000500000005000000
+    preNumber: 60
+  - Name: "\u30D6\u30EA\u30AD"
+    ID: 27
+    Level: 1
+    HP: 63
+    NowHP: 63
+    SP: 47
+    NowSP: 47
+    Attack: 37
+    Defence: 38
+    Magic: 36
+    MagicDef: 37
+    Speed: 35
+    Exp: 0
+    NextExp: 16
+    Equip: -1
+    CharaPt: 1
+    Skill: 0000000001000000
+    SkillUse: 0000000000000000
+    Character: 01000000
+    Grow: 0b000000050000000500000006000000040000000500000003000000
+    preNumber: 61
+  - Name: "\u30C8\u30BF\u30F3"
+    ID: 28
+    Level: 1
+    HP: 63
+    NowHP: 63
+    SP: 47
+    NowSP: 47
+    Attack: 37
+    Defence: 38
+    Magic: 36
+    MagicDef: 36
+    Speed: 35
+    Exp: 0
+    NextExp: 16
+    Equip: -1
+    CharaPt: 1
+    Skill: 0000000001000000
+    SkillUse: 0000000000000000
+    Character: 01000000
+    Grow: 0b000000050000000500000006000000040000000400000003000000
+    preNumber: 62
+  - Name: "\u70AD\u9178\u6C34\u7D20\u30AB\u30EB\u30B7\u30A6\u30E0"
+    ID: 103
+    Level: 1
+    HP: 58
+    NowHP: 58
+    SP: 46
+    NowSP: 46
+    Attack: 36
+    Defence: 36
+    Magic: 37
+    MagicDef: 35
+    Speed: 37
+    Exp: 0
+    NextExp: 16
+    Equip: -1
+    CharaPt: 1
+    Skill: 0000000001000000
+    SkillUse: 0000000000000000
+    Character: 01000000
+    Grow: 06000000040000000400000004000000050000000300000005000000
+    preNumber: 63
+  - Name: "\u9178\u5316\u30AB\u30EB\u30B7\u30A6\u30E0"
+    ID: 107
+    Level: 1
+    HP: 58
+    NowHP: 58
+    SP: 46
+    NowSP: 46
+    Attack: 35
+    Defence: 37
+    Magic: 36
+    MagicDef: 35
+    Speed: 35
+    Exp: 0
+    NextExp: 16
+    Equip: -1
+    CharaPt: 1
+    Skill: 0000000001000000
+    SkillUse: 0000000000000000
+    Character: 0100000001000000
+    Grow: 06000000040000000300000005000000040000000300000003000000
+    preNumber: 64
+  - Name: "\u30DE\u30B0\u30CD\u30B7\u30A6\u30E0\u5408\u91D1"
+    ID: 132
+    Level: 1
+    HP: 59
+    NowHP: 59
+    SP: 45
+    NowSP: 45
+    Attack: 37
+    Defence: 38
+    Magic: 36
+    MagicDef: 37
+    Speed: 38
+    Exp: 0
+    NextExp: 16
+    Equip: -1
+    CharaPt: 1
+    Skill: 0000000001000000
+    SkillUse: 0000000000000000
+    Character: 01000000
+    Grow: 07000000030000000500000006000000040000000500000006000000
+    preNumber: 65
+  - Name: "\u6C34\u9178\u5316\u9244(\u2162)"
+    ID: 124
+    Level: 1
+    HP: 60
+    NowHP: 60
+    SP: 47
+    NowSP: 47
+    Attack: 38
+    Defence: 37
+    Magic: 37
+    MagicDef: 36
+    Speed: 38
+    Exp: 0
+    NextExp: 16
+    Equip: -1
+    CharaPt: 1
+    Skill: 0000000001000000
+    SkillUse: 0000000000000000
+    Character: 01000000
+    Grow: 08000000050000000600000005000000050000000400000006000000
+    preNumber: 66
+  - Name: "\u6C34\u9178\u5316\u9244(\u2161)"
+    ID: 123
+    Level: 1
+    HP: 60
+    NowHP: 60
+    SP: 47
+    NowSP: 47
+    Attack: 38
+    Defence: 37
+    Magic: 37
+    MagicDef: 36
+    Speed: 38
+    Exp: 0
+    NextExp: 16
+    Equip: -1
+    CharaPt: 1
+    Skill: 0000000001000000
+    SkillUse: 0000000000000000
+    Character: 01000000
+    Grow: 08000000050000000600000005000000050000000400000006000000
+    preNumber: 67
+  - Name: "\u6B21\u4E9C\u5869\u7D20\u9178"
+    ID: 114
+    Level: 5
+    HP: 91
+    NowHP: 91
+    SP: 76
+    NowSP: 76
+    Attack: 70
+    Defence: 61
+    Magic: 59
+    MagicDef: 72
+    Speed: 6000
+    Exp: 180
+    NextExp: 20
+    Equip: -1
+    CharaPt: 5
+    Skill: 00000000010000000d000000100000001d000000
+    SkillUse: 0000000000000000000000000000000000000000
+    Character: 010000000100000001000000
+    Grow: 08000000060000000700000005000000050000000700000006000000
+    preNumber: 68
+  - Name: "\u9ED2\u925B"
+    ID: 16
+    Level: 2
+    HP: 41
+    NowHP: 41
+    SP: 48
+    NowSP: 48
+    Attack: 36
+    Defence: 35
+    Magic: 38
+    MagicDef: 39
+    Speed: 40
+    Exp: 52
+    NextExp: 26
+    Equip: -1
+    CharaPt: 2
+    Skill: 0000000001000000
+    SkillUse: 0000000000000000
+    Character: 010000000100000001000000
+    Grow: 06000000040000000300000003000000040000000500000005000000
+    preNumber: 69
+  - Name: "\u713C\u30BB\u30C3\u30B3\u30A6"
+    ID: 23
+    Level: 5
+    HP: 105
+    NowHP: 93
+    SP: 66
+    NowSP: 66
+    Attack: 62
+    Defence: 68
+    Magic: 59
+    MagicDef: 58
+    Speed: 59
+    Exp: 185
+    NextExp: 15
+    Equip: -1
+    CharaPt: 5
+    Skill: 000000000100000022000000
+    SkillUse: 000000000000000000000000
+    Character: 01000000
+    Grow: 0b000000040000000600000007000000060000000600000006000000
+    preNumber: 70
+  - Name: "\u786B\u9178\u30D0\u30EA\u30A6\u30E0"
+    ID: 87
+    Level: 5
+    HP: 101
+    NowHP: 91
+    SP: 65
+    NowSP: 65
+    Attack: 62
+    Defence: 62
+    Magic: 55
+    MagicDef: 55
+    Speed: 54
+    Exp: 185
+    NextExp: 15
+    Equip: -1
+    CharaPt: 5
+    Skill: 00000000010000001e0000000c000000
+    SkillUse: 00000000000000000000000000000000
+    Character: 01000000
+    Grow: 08000000030000000400000004000000040000000300000003000000
+    preNumber: 71
+  - Name: "\u4E00\u9178\u5316\u70AD\u7D20"
+    ID: 42
+    Level: 5
+    HP: 97
+    NowHP: 97
+    SP: 65
+    NowSP: 65
+    Attack: 58
+    Defence: 55
+    Magic: 60
+    MagicDef: 57
+    Speed: 61
+    Exp: 185
+    NextExp: 15
+    Equip: -1
+    CharaPt: 5
+    Skill: 00000000010000000d0000001000000003000000
+    SkillUse: 0000000000000000000000000000000000000000
+    Character: 0100000001000000
+    Grow: 09000000050000000500000004000000060000000500000006000000
+    preNumber: 72
+  - Name: "\u738B\u6C34"
+    ID: 22
+    Level: 90
+    HP: 1629
+    NowHP: 1629
+    SP: 466
+    NowSP: 166
+    Attack: 896
+    Defence: 560
+    Magic: 640
+    MagicDef: 588
+    Speed: 692
+    Exp: 103417
+    NextExp: 1327
+    Equip: -1
+    CharaPt: 10
+    Skill: 00000000010000000f000000100000001300000018000000300000002e0000002100000023000000
+    SkillUse: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+    Character: 050000000100000001000000
+    Grow: 110000000b0000000d0000000b0000000c0000000b0000000c000000
+    preNumber: 73
+  - Name: "\u30B9\u30C6\u30F3\u30EC\u30B9\u92FC"
+    ID: 24
+    Level: 89
+    HP: 1237
+    NowHP: 1237
+    SP: 233
+    NowSP: 233
+    Attack: 840
+    Defence: 940
+    Magic: 529
+    MagicDef: 629
+    Speed: 574
+    Exp: 100008
+    NextExp: 2141
+    Equip: -1
+    CharaPt: 9
+    Skill: 00000000010000000f000000150000001c0000001e000000310000004a000000210000002e000000
+    SkillUse: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+    Character: 05000000
+    Grow: 0d000000070000000a0000000a000000080000000900000008000000
+    preNumber: 74
+  - Name: "\u6C34"
+    ID: 1
+    Level: 99
+    HP: 95
+    NowHP: 95
+    SP: 51
+    NowSP: 51
+    Attack: 0
+    Defence: 2
+    Magic: 0
+    MagicDef: 2
+    Speed: 1
+    Exp: 716
+    NextExp: 0
+    Equip: 0
+    CharaPt: 2
+    Skill: 0000000000000000
+    SkillUse: 0000000000000000
+    Character: 0000000000000000
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 75
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0
+  - Name: 
+    ID: -1
+    Level: 0
+    HP: 0
+    NowHP: 0
+    SP: 0
+    NowSP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Exp: 0
+    NextExp: 0
+    Equip: 0
+    CharaPt: 0
+    Skill: 
+    SkillUse: 
+    Character: 
+    Grow: 00000000000000000000000000000000000000000000000000000000
+    preNumber: 0

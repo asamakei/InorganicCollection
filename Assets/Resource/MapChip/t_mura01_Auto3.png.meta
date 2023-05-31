@@ -1,0 +1,499 @@
+fileFormatVersion: 2
+guid: a835292015b53964a908b20f84fee57b
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: t_mura01_Auto3_45
+    21300002: t_mura01_Auto3_46
+    21300004: t_mura01_Auto3_47
+    21300006: t_mura01_Auto3_48
+    21300008: t_mura01_Auto3_49
+    21300010: t_mura01_Auto3_50
+    21300012: t_mura01_Auto3_51
+    21300014: t_mura01_Auto3_52
+    21300016: t_mura01_Auto3_53
+    21300018: t_mura01_Auto3_54
+    21300020: t_mura01_Auto3_55
+    21300022: t_mura01_Auto3_56
+    21300024: t_mura01_Auto3_57
+    21300026: t_mura01_Auto3_58
+    21300028: t_mura01_Auto3_59
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: t_mura01_Auto3_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -6, y: -15}
+        - {x: -6, y: -6}
+        - {x: 4, y: -6}
+        - {x: 4, y: -15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b24288ab85aa3b4799f3a035e72e768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_mura01_Auto3_46
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: -15}
+        - {x: -16, y: -8}
+        - {x: 4, y: -8}
+        - {x: 4, y: -15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd4f53007dfd44489f9f2e9f282c800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_mura01_Auto3_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: -15}
+        - {x: -16, y: -8}
+        - {x: -6, y: -8}
+        - {x: -6, y: 16}
+        - {x: 4, y: 16}
+        - {x: 4, y: -15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b719ece85bef0e409ac82dd4390529d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_mura01_Auto3_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: -15}
+        - {x: -16, y: -8}
+        - {x: -5.999999, y: -7.9096985}
+        - {x: -6, y: 16}
+        - {x: 4, y: 16}
+        - {x: 4, y: -15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbdee3a01dd85d7418500521f4b4437e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_mura01_Auto3_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: -15}
+        - {x: -16, y: -8}
+        - {x: 16, y: -8}
+        - {x: 16, y: -15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59d692253a1e2034092c1301e021b012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_mura01_Auto3_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: -15}
+        - {x: -16, y: -8}
+        - {x: -6, y: -8}
+        - {x: -6, y: 16}
+        - {x: 4, y: 16}
+        - {x: 4, y: -8}
+        - {x: 16, y: -8}
+        - {x: 16, y: -15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d4136b7991f2547b1aedf0c632c0ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_mura01_Auto3_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: -15}
+        - {x: -16, y: -8}
+        - {x: -6, y: -8}
+        - {x: -6, y: 16}
+        - {x: 4, y: 16}
+        - {x: 4, y: -8}
+        - {x: 16, y: -8}
+        - {x: 16, y: -15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f93a3d506d03044e9258fbc6984d719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_mura01_Auto3_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: -15}
+        - {x: -16, y: -8}
+        - {x: -6, y: -8}
+        - {x: -6, y: 16}
+        - {x: 4, y: 16}
+        - {x: 4, y: -8}
+        - {x: 16, y: -8}
+        - {x: 16, y: -15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1728536c829f1c4e8544e4db1a69531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_mura01_Auto3_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: -15}
+        - {x: -16, y: -8}
+        - {x: 16, y: -8}
+        - {x: 16, y: -15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c2276596c0a064ba90785da10db524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_mura01_Auto3_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: -15}
+        - {x: -16, y: -8}
+        - {x: 16, y: -8}
+        - {x: 16, y: -15}
+      - - {x: -6, y: -16}
+        - {x: -6, y: 16}
+        - {x: 4, y: 16}
+        - {x: 4, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c5a0336f3a466458147b0203f5ace6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_mura01_Auto3_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: -15}
+        - {x: -16, y: -8}
+        - {x: 16, y: -8}
+        - {x: 16, y: -15}
+      - - {x: -6, y: -16}
+        - {x: -6, y: 16}
+        - {x: 4, y: 16}
+        - {x: 4, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff9e88f816371544a6ce48292009c24
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_mura01_Auto3_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: -15}
+        - {x: 4, y: -16}
+        - {x: -6, y: -16}
+        - {x: -6, y: -15}
+        - {x: -16, y: -15}
+        - {x: -16, y: -8}
+        - {x: 16, y: -8}
+        - {x: 16, y: -15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7593eb6e678828f4b8d544dc2e1056fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_mura01_Auto3_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: -15}
+        - {x: -16, y: -8}
+        - {x: 16, y: -8}
+        - {x: 16, y: -15}
+      - - {x: -6, y: -16}
+        - {x: -6, y: 16}
+        - {x: 4, y: 16}
+        - {x: 4, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2723e0463bc0be44c956d47bf76f213f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_mura01_Auto3_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: -15}
+        - {x: 4, y: -16}
+        - {x: -6, y: -16}
+        - {x: -6, y: -15}
+        - {x: -16, y: -15}
+        - {x: -16, y: -8}
+        - {x: 16, y: -8}
+        - {x: 16, y: -15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2bc31f8c83032b458dc9baac74f5632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: t_mura01_Auto3_59
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -16, y: -15}
+        - {x: -16, y: -8}
+        - {x: 16, y: -8}
+        - {x: 16, y: -15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4026cf22f37c6d4b9f2fd2e25a16306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 35f417e7c5148a3469989484f20c44e9
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1671 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a2e30c8ccd5d0541ba74b2c1df6f343, type: 3}
+  m_Name: EnemyDatas
+  m_EditorClassIdentifier: 
+  EnemyDataList:
+  - Name: "\u30BF\u30F3\u30B0\u30B9\u30C6\u30F3"
+    ID: 9
+    Level: 1
+    HP: -30
+    SP: 0
+    Attack: -5
+    Defence: -2
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Money: 100
+    Exp: 16
+    Equip: 0
+    Skill: 0000000001000000
+    Character: 0100000001000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u70AD\u9178\u30CA\u30C8\u30EA\u30A6\u30E0"
+    ID: 18
+    Level: 5
+    HP: 12
+    SP: 10
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Money: 100
+    Exp: 50
+    Equip: 0
+    Skill: 00000000010000003c0000000d00000023000000
+    Character: 01000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u70AD\u9178\u6C34\u7D20\u30CA\u30C8\u30EA\u30A6\u30E0"
+    ID: 19
+    Level: 5
+    HP: 12
+    SP: 10
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Money: 100
+    Exp: 50
+    Equip: 0
+    Skill: 0000000001000000520000003e00000021000000
+    Character: 01000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u6FC3\u785D\u9178"
+    ID: 20
+    Level: 15
+    HP: 200
+    SP: 100
+    Attack: 10
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Money: 100
+    Exp: 200
+    Equip: 0
+    Skill: 00000000010000004f0000002e00000002000000
+    Character: 01000000010000000500000001000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u30B7\u30EA\u30AB\u30B2\u30EB"
+    ID: 21
+    Level: 20
+    HP: 300
+    SP: 200
+    Attack: 0
+    Defence: 10
+    Magic: 0
+    MagicDef: 10
+    Speed: 0
+    Money: 300
+    Exp: 300
+    Equip: 0
+    Skill: 00000000010000000e000000290000003000000017000000
+    Character: 05000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u738B\u6C34"
+    ID: 22
+    Level: 28
+    HP: 800
+    SP: 400
+    Attack: 10
+    Defence: 20
+    Magic: 10
+    MagicDef: 20
+    Speed: 0
+    Money: 400
+    Exp: 500
+    Equip: 0
+    Skill: 0000000001000000510000002e000000210000000f0000001a000000
+    Character: 050000000500000001000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u713C\u30BB\u30C3\u30B3\u30A6"
+    ID: 23
+    Level: 34
+    HP: 900
+    SP: 300
+    Attack: 20
+    Defence: 20
+    Magic: 30
+    MagicDef: 50
+    Speed: 0
+    Money: 500
+    Exp: 650
+    Equip: 0
+    Skill: 00000000010000002200000026000000240000000e0000000b0000001a000000
+    Character: 05000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u8B0E\u306E\u7537"
+    ID: 24
+    Level: 40
+    HP: 1500
+    SP: 300
+    Attack: 60
+    Defence: 120
+    Magic: 60
+    MagicDef: 120
+    Speed: 50
+    Money: 700
+    Exp: 800
+    Equip: 0
+    Skill: 00000000010000004a0000001c000000210000002e0000000200000031000000
+    Character: 05000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u30B5\u30D5\u30A1\u30A4\u30A2"
+    ID: 25
+    Level: 45
+    HP: 1200
+    SP: 300
+    Attack: 50
+    Defence: 100
+    Magic: 50
+    MagicDef: 100
+    Speed: 50
+    Money: 1000
+    Exp: 800
+    Equip: 0
+    Skill: 00000000010000002200000023000000140000000c00000012000000
+    Character: 05000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u6FC3\u786B\u9178"
+    ID: 26
+    Level: 45
+    HP: 1600
+    SP: 300
+    Attack: 160
+    Defence: 100
+    Magic: 100
+    MagicDef: 100
+    Speed: 50
+    Money: 1000
+    Exp: 800
+    Equip: 0
+    Skill: 000000000100000044000000020000002f0000000f0000001e00000018000000
+    Character: 05000000050000000500000005000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u30D6\u30EA\u30AD"
+    ID: 27
+    Level: 51
+    HP: 2000
+    SP: 300
+    Attack: 130
+    Defence: 160
+    Magic: 130
+    MagicDef: 160
+    Speed: 70
+    Money: 1200
+    Exp: 1000
+    Equip: 0
+    Skill: 00000000010000001b0000004a00000022000000210000002e000000
+    Character: 05000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u30C8\u30BF\u30F3"
+    ID: 28
+    Level: 51
+    HP: 2000
+    SP: 300
+    Attack: 130
+    Defence: 160
+    Magic: 130
+    MagicDef: 160
+    Speed: 70
+    Money: 1200
+    Exp: 1000
+    Equip: 0
+    Skill: 00000000010000004a00000024000000310000001b00000012000000
+    Character: 05000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u30B5\u30D5\u30A1\u30A4\u30A2"
+    ID: 25
+    Level: 50
+    HP: 1300
+    SP: 300
+    Attack: 100
+    Defence: 100
+    Magic: 100
+    MagicDef: 100
+    Speed: 100
+    Money: 800
+    Exp: 900
+    Equip: 0
+    Skill: 00000000010000002200000023000000140000000c000000120000000900000008000000
+    Character: 05000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u30B9\u30C6\u30F3\u30EC\u30B9\u92FC"
+    ID: 24
+    Level: 50
+    HP: 1300
+    SP: 300
+    Attack: 100
+    Defence: 100
+    Magic: 100
+    MagicDef: 100
+    Speed: 100
+    Money: 800
+    Exp: 900
+    Equip: 0
+    Skill: 00000000010000004a0000001c000000210000002e0000000200000031000000
+    Character: 05000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u738B\u6C34"
+    ID: 22
+    Level: 50
+    HP: 1300
+    SP: 300
+    Attack: 100
+    Defence: 100
+    Magic: 100
+    MagicDef: 100
+    Speed: 100
+    Money: 800
+    Exp: 900
+    Equip: 0
+    Skill: 0000000001000000510000001a0000002e000000210000000f000000
+    Character: 050000000500000005000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u30A2\u30DE\u30EB\u30AC\u30E0"
+    ID: 29
+    Level: 55
+    HP: 2000
+    SP: 300
+    Attack: 100
+    Defence: 100
+    Magic: 150
+    MagicDef: 100
+    Speed: 100
+    Money: 1500
+    Exp: 1500
+    Equip: 0
+    Skill: 00000000150000004a0000001c0000002b000000210000001b0000002e000000
+    Character: 05000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u30B8\u30E5\u30E9\u30EB\u30DF\u30F3"
+    ID: 30
+    Level: 57
+    HP: 2800
+    SP: 300
+    Attack: 340
+    Defence: 230
+    Magic: 140
+    MagicDef: 260
+    Speed: 180
+    Money: 2000
+    Exp: 2000
+    Equip: 0
+    Skill: 000000002e000000490000002100000025000000150000001b0000000200000005000000
+    Character: 05000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u6C34"
+    ID: 1
+    Level: 1
+    HP: -20
+    SP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Money: 3
+    Exp: 6
+    Equip: 0
+    Skill: 00000000010000000d000000
+    Character: 0100000001000000
+    Item: 
+    Rate: 
+    GetDiff: 30
+  - Name: "\u9ED2\u925B"
+    ID: 16
+    Level: 1
+    HP: -20
+    SP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Money: 4
+    Exp: 6
+    Equip: 0
+    Skill: 0000000001000000
+    Character: 010000000100000001000000
+    Item: 
+    Rate: 
+    GetDiff: 30
+  - Name: "\u30AB\u30EA\u30A6\u30E0"
+    ID: 14
+    Level: 1
+    HP: -20
+    SP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Money: 4
+    Exp: 5
+    Equip: 0
+    Skill: 0000000001000000
+    Character: 010000000100000001000000
+    Item: 
+    Rate: 
+    GetDiff: 30
+  - Name: "\u81ED\u7D20"
+    ID: 32
+    Level: 2
+    HP: -10
+    SP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Money: 7
+    Exp: 8
+    Equip: 0
+    Skill: 00000000010000004d000000
+    Character: 01000000
+    Item: 
+    Rate: 
+    GetDiff: 15
+  - Name: "\u9178\u5316\u925B(\u2161)"
+    ID: 33
+    Level: 3
+    HP: -10
+    SP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Money: 8
+    Exp: 9
+    Equip: 0
+    Skill: 0000000001000000
+    Character: 01000000
+    Item: 
+    Rate: 
+    GetDiff: 15
+  - Name: "\u904E\u9178\u5316\u6C34\u7D20"
+    ID: 49
+    Level: 5
+    HP: -30
+    SP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Money: 15
+    Exp: 19
+    Equip: 0
+    Skill: 00000000010000000d0000004f000000
+    Character: 0100000001000000
+    Item: 
+    Rate: 
+    GetDiff: 7
+  - Name: "\u7A92\u7D20"
+    ID: 47
+    Level: 5
+    HP: -30
+    SP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Money: 14
+    Exp: 17
+    Equip: 0
+    Skill: 00000000010000001300000054000000
+    Character: 01000000
+    Item: 
+    Rate: 
+    GetDiff: 7
+  - Name: "\u5869\u5316\u30CA\u30C8\u30EA\u30A6\u30E0"
+    ID: 48
+    Level: 6
+    HP: -30
+    SP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Money: 16
+    Exp: 18
+    Equip: 0
+    Skill: 000000000100000010000000
+    Character: 01000000
+    Item: 
+    Rate: 
+    GetDiff: 7
+  - Name: "\u30E8\u30A6\u7D20"
+    ID: 39
+    Level: 6
+    HP: -30
+    SP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Money: 18
+    Exp: 19
+    Equip: 0
+    Skill: 00000000010000000200000065000000
+    Character: 020000000100000001000000
+    Item: 
+    Rate: 
+    GetDiff: 7
+  - Name: "\u30D8\u30EA\u30A6\u30E0"
+    ID: 10
+    Level: 7
+    HP: -30
+    SP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Money: 25
+    Exp: 30
+    Equip: 0
+    Skill: 0000000001000000220000004b000000
+    Character: 02000000
+    Item: 
+    Rate: 
+    GetDiff: 4
+  - Name: "\u70AD\u9178\u30AB\u30EB\u30B7\u30A6\u30E0"
+    ID: 46
+    Level: 10
+    HP: -10
+    SP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Money: 29
+    Exp: 28
+    Equip: 0
+    Skill: 0000000001000000220000003e0000005e000000
+    Character: 02000000
+    Item: 
+    Rate: 
+    GetDiff: 6
+  - Name: "\u30DE\u30F3\u30AC\u30F3"
+    ID: 53
+    Level: 11
+    HP: -10
+    SP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Money: 31
+    Exp: 29
+    Equip: 0
+    Skill: 00000000010000001f000000640000004a000000
+    Character: 0200000001000000
+    Item: 26000000
+    Rate: 0a000000
+    GetDiff: 6
+  - Name: "\u9178\u5316\u9285(\u2161)"
+    ID: 51
+    Level: 11
+    HP: -10
+    SP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Money: 30
+    Exp: 30
+    Equip: 0
+    Skill: 00000000010000000200000021000000
+    Character: 02000000
+    Item: 
+    Rate: 
+    GetDiff: 6
+  - Name: "\u4E8C\u9178\u5316\u30B1\u30A4\u7D20"
+    ID: 50
+    Level: 11
+    HP: -10
+    SP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Money: 29
+    Exp: 27
+    Equip: 0
+    Skill: 00000000010000002200000060000000
+    Character: 02000000
+    Item: 
+    Rate: 
+    GetDiff: 6
+  - Name: "\u30CD\u30AA\u30F3"
+    ID: 11
+    Level: 12
+    HP: -10
+    SP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Money: 40
+    Exp: 37
+    Equip: 0
+    Skill: 0000000001000000240000004b000000
+    Character: 02000000
+    Item: 
+    Rate: 
+    GetDiff: 4
+  - Name: "\u30E8\u30A6\u5316\u30AB\u30EA\u30A6\u30E0"
+    ID: 60
+    Level: 17
+    HP: -10
+    SP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Money: 42
+    Exp: 53
+    Equip: 0
+    Skill: 0000000001000000500000002c0000002b000000
+    Character: 0200000002000000
+    Item: 
+    Rate: 
+    GetDiff: 6
+  - Name: "\u30D0\u30EA\u30A6\u30E0"
+    ID: 58
+    Level: 17
+    HP: -10
+    SP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Money: 43
+    Exp: 54
+    Equip: 0
+    Skill: 00000000010000004900000064000000400000001e000000
+    Character: 020000000200000002000000
+    Item: 
+    Rate: 
+    GetDiff: 6
+  - Name: "\u30EA\u30F3\u9178"
+    ID: 57
+    Level: 17
+    HP: -10
+    SP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Money: 44
+    Exp: 55
+    Equip: 0
+    Skill: 0000000001000000620000005400000038000000
+    Character: 02000000
+    Item: 
+    Rate: 
+    GetDiff: 6
+  - Name: "\u30D9\u30EA\u30EA\u30A6\u30E0"
+    ID: 59
+    Level: 18
+    HP: -10
+    SP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Money: 47
+    Exp: 52
+    Equip: 0
+    Skill: 000000000100000049000000640000003100000021000000
+    Character: 0200000002000000
+    Item: 
+    Rate: 
+    GetDiff: 6
+  - Name: "\u9280"
+    ID: 4
+    Level: 18
+    HP: -10
+    SP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Money: 46
+    Exp: 60
+    Equip: 0
+    Skill: 00000000010000004a0000001100000042000000
+    Character: 02000000
+    Item: 
+    Rate: 
+    GetDiff: 4
+  - Name: "\u30D5\u30C3\u7D20"
+    ID: 61
+    Level: 23
+    HP: 20
+    SP: 20
+    Attack: 20
+    Defence: 20
+    Magic: 20
+    MagicDef: 20
+    Speed: 20
+    Money: 60
+    Exp: 92
+    Equip: 0
+    Skill: 0000000001000000650000000b0000004d00000014000000
+    Character: 03000000
+    Item: 
+    Rate: 
+    GetDiff: 6
+  - Name: "\u9178\u5316\u30DE\u30B0\u30CD\u30B7\u30A6\u30E0"
+    ID: 129
+    Level: 23
+    HP: 20
+    SP: 20
+    Attack: 20
+    Defence: 20
+    Magic: 20
+    MagicDef: 20
+    Speed: 20
+    Money: 61
+    Exp: 94
+    Equip: 0
+    Skill: 00000000010000000b00000023000000
+    Character: 03000000
+    Item: 
+    Rate: 
+    GetDiff: 6
+  - Name: "\u30AF\u30ED\u30E0\u9178\u30AB\u30EA\u30A6\u30E0"
+    ID: 63
+    Level: 23
+    HP: 20
+    SP: 20
+    Attack: 20
+    Defence: 20
+    Magic: 20
+    MagicDef: 20
+    Speed: 20
+    Money: 62
+    Exp: 93
+    Equip: 0
+    Skill: 00000000010000003e00000021000000020000002e000000
+    Character: 03000000
+    Item: 
+    Rate: 
+    GetDiff: 6
+  - Name: "\u30EA\u30C1\u30A6\u30E0"
+    ID: 62
+    Level: 24
+    HP: 20
+    SP: 20
+    Attack: 20
+    Defence: 20
+    Magic: 20
+    MagicDef: 20
+    Speed: 20
+    Money: 68
+    Exp: 91
+    Equip: 0
+    Skill: 000000000100000049000000640000004800000040000000
+    Character: 020000000200000002000000
+    Item: 
+    Rate: 
+    GetDiff: 6
+  - Name: "\u30C0\u30A4\u30E4\u30E2\u30F3\u30C9"
+    ID: 43
+    Level: 25
+    HP: 20
+    SP: 20
+    Attack: 20
+    Defence: 20
+    Magic: 20
+    MagicDef: 20
+    Speed: 20
+    Money: 75
+    Exp: 120
+    Equip: 0
+    Skill: 0000000001000000500000002200000024000000
+    Character: 020000000200000002000000
+    Item: 
+    Rate: 
+    GetDiff: 3
+  - Name: "\u786B\u5316\u6C34\u7D20"
+    ID: 40
+    Level: 29
+    HP: 30
+    SP: 30
+    Attack: 30
+    Defence: 30
+    Magic: 30
+    MagicDef: 30
+    Speed: 30
+    Money: 93
+    Exp: 141
+    Equip: 0
+    Skill: 00000000010000004e00000050000000230000000b00000014000000
+    Character: 0300000003000000
+    Item: 
+    Rate: 
+    GetDiff: 6
+  - Name: "\u5869\u5316\u30BB\u30B7\u30A6\u30E0"
+    ID: 56
+    Level: 29
+    HP: 30
+    SP: 30
+    Attack: 30
+    Defence: 30
+    Magic: 30
+    MagicDef: 30
+    Speed: 30
+    Money: 94
+    Exp: 143
+    Equip: 0
+    Skill: 00000000010000001f0000000b0000001100000031000000
+    Character: 04000000
+    Item: 
+    Rate: 
+    GetDiff: 6
+  - Name: "\u30C1\u30BF\u30F3"
+    ID: 54
+    Level: 29
+    HP: 30
+    SP: 30
+    Attack: 30
+    Defence: 30
+    Magic: 30
+    MagicDef: 30
+    Speed: 30
+    Money: 95
+    Exp: 145
+    Equip: 0
+    Skill: 00000000010000001f00000064000000490000002500000005000000
+    Character: 0300000003000000
+    Item: 
+    Rate: 
+    GetDiff: 6
+  - Name: "\u30B9\u30C8\u30ED\u30F3\u30C1\u30A6\u30E0"
+    ID: 64
+    Level: 30
+    HP: 30
+    SP: 30
+    Attack: 30
+    Defence: 30
+    Magic: 30
+    MagicDef: 30
+    Speed: 30
+    Money: 95
+    Exp: 144
+    Equip: 0
+    Skill: 00000000010000004900000064000000400000002d000000
+    Character: 030000000200000002000000
+    Item: 
+    Rate: 
+    GetDiff: 6
+  - Name: "\u91D1"
+    ID: 65
+    Level: 31
+    HP: 30
+    SP: 30
+    Attack: 30
+    Defence: 30
+    Magic: 30
+    MagicDef: 30
+    Speed: 30
+    Money: 110
+    Exp: 170
+    Equip: 0
+    Skill: 00000000010000004a000000070000004200000022000000
+    Character: 04000000
+    Item: 
+    Rate: 
+    GetDiff: 4
+  - Name: "\u30EA\u30F3\u9178\u30AB\u30EB\u30B7\u30A6\u30E0"
+    ID: 38
+    Level: 37
+    HP: 40
+    SP: 40
+    Attack: 40
+    Defence: 40
+    Magic: 40
+    MagicDef: 40
+    Speed: 40
+    Money: 110
+    Exp: 180
+    Equip: 0
+    Skill: 00000000010000003e00000022000000170000002e00000030000000
+    Character: 04000000
+    Item: 
+    Rate: 
+    GetDiff: 6
+  - Name: "\u786B\u5316\u30AB\u30C9\u30DF\u30A6\u30E0"
+    ID: 67
+    Level: 37
+    HP: 40
+    SP: 40
+    Attack: 40
+    Defence: 40
+    Magic: 40
+    MagicDef: 40
+    Speed: 40
+    Money: 111
+    Exp: 181
+    Equip: 0
+    Skill: 00000000010000001c0000002c0000001f00000009000000
+    Character: 0300000003000000
+    Item: 
+    Rate: 
+    GetDiff: 6
+  - Name: "\u9178\u5316\u4E9C\u925B"
+    ID: 66
+    Level: 38
+    HP: 40
+    SP: 40
+    Attack: 40
+    Defence: 40
+    Magic: 40
+    MagicDef: 40
+    Speed: 40
+    Money: 113
+    Exp: 182
+    Equip: 0
+    Skill: 000000000100000045000000210000002e000000
+    Character: 020000000300000003000000
+    Item: 
+    Rate: 
+    GetDiff: 6
+  - Name: "\u30C1\u30AA\u30B7\u30A2\u30F3\u9178\u30AB\u30EA\u30A6\u30E0"
+    ID: 41
+    Level: 38
+    HP: 40
+    SP: 40
+    Attack: 40
+    Defence: 40
+    Magic: 40
+    MagicDef: 40
+    Speed: 40
+    Money: 112
+    Exp: 183
+    Equip: 0
+    Skill: 0000000001000000380000000e0000002c0000001d0000001e000000
+    Character: 04000000
+    Item: 
+    Rate: 
+    GetDiff: 6
+  - Name: "\u5869\u5316\u30B9\u30BA(\u2161)"
+    ID: 71
+    Level: 42
+    HP: 40
+    SP: 40
+    Attack: 40
+    Defence: 40
+    Magic: 40
+    MagicDef: 40
+    Speed: 40
+    Money: 130
+    Exp: 214
+    Equip: 0
+    Skill: 0000000001000000500000003800000027000000290000000f000000
+    Character: 0500000002000000
+    Item: 
+    Rate: 
+    GetDiff: 6
+  - Name: "\u30D0\u30CA\u30B8\u30A6\u30E0"
+    ID: 69
+    Level: 42
+    HP: 40
+    SP: 40
+    Attack: 40
+    Defence: 40
+    Magic: 40
+    MagicDef: 40
+    Speed: 40
+    Money: 133
+    Exp: 215
+    Equip: 0
+    Skill: 0000000001000000640000002d0000002100000002000000
+    Character: 0500000003000000
+    Item: 22000000
+    Rate: 0a000000
+    GetDiff: 6
+  - Name: "\u9178\u5316\u9244(\u2162)"
+    ID: 70
+    Level: 43
+    HP: 40
+    SP: 40
+    Attack: 40
+    Defence: 40
+    Magic: 40
+    MagicDef: 40
+    Speed: 40
+    Money: 134
+    Exp: 216
+    Equip: 0
+    Skill: 0000000001000000450000001c0000000c00000015000000
+    Character: 0300000005000000
+    Item: 27000000
+    Rate: 1e000000
+    GetDiff: 6
+  - Name: "\u30CB\u30C3\u30B1\u30EB"
+    ID: 68
+    Level: 43
+    HP: 40
+    SP: 40
+    Attack: 40
+    Defence: 40
+    Magic: 40
+    MagicDef: 40
+    Speed: 40
+    Money: 135
+    Exp: 220
+    Equip: 0
+    Skill: 00000000010000004a000000640000001e00000012000000
+    Character: 0300000005000000
+    Item: 
+    Rate: 
+    GetDiff: 6
+  - Name: "\u30A2\u30EB\u30B4\u30F3"
+    ID: 12
+    Level: 44
+    HP: 40
+    SP: 40
+    Attack: 40
+    Defence: 40
+    Magic: 40
+    MagicDef: 40
+    Speed: 40
+    Money: 150
+    Exp: 260
+    Equip: 0
+    Skill: 0000000001000000220000004b00000008000000240000005f00000009000000
+    Character: 05000000
+    Item: 
+    Rate: 
+    GetDiff: 4
+  - Name: "\u30AC\u30EA\u30A6\u30E0"
+    ID: 73
+    Level: 60
+    HP: 1000
+    SP: 200
+    Attack: 100
+    Defence: 100
+    Magic: 100
+    MagicDef: 100
+    Speed: 100
+    Money: 1000
+    Exp: 1000
+    Equip: 0
+    Skill: 00000000010000006400000040000000150000002d0000001e00000012000000
+    Character: 0500000005000000
+    Item: 
+    Rate: 
+    GetDiff: -5
+  - Name: "\u30B2\u30EB\u30DE\u30CB\u30A6\u30E0"
+    ID: 72
+    Level: 60
+    HP: 1000
+    SP: 200
+    Attack: 100
+    Defence: 100
+    Magic: 100
+    MagicDef: 100
+    Speed: 100
+    Money: 1000
+    Exp: 1000
+    Equip: 0
+    Skill: 00000000010000005c000000640000001b000000050000000c00000023000000
+    Character: 0500000005000000
+    Item: 
+    Rate: 
+    GetDiff: -5
+  - Name: "\u30DC\u30FC\u30AD\u30B5\u30A4\u30C8"
+    ID: 37
+    Level: 53
+    HP: 100
+    SP: 50
+    Attack: 50
+    Defence: 50
+    Magic: 50
+    MagicDef: 50
+    Speed: 50
+    Money: 600
+    Exp: 1000
+    Equip: 0
+    Skill: 000000000100000022000000210000002f0000003000000031000000
+    Character: 05000000
+    Item: 
+    Rate: 
+    GetDiff: 7
+  - Name: "\u30CB\u30DB\u30CB\u30A6\u30E0"
+    ID: 74
+    Level: 80
+    HP: 1000
+    SP: 200
+    Attack: 100
+    Defence: 100
+    Magic: 100
+    MagicDef: 100
+    Speed: 100
+    Money: 4000
+    Exp: 5000
+    Equip: 0
+    Skill: 00000000010000001f0000001e00000002000000310000000c0000001800000012000000
+    Character: 0500000005000000
+    Item: 
+    Rate: 
+    GetDiff: -5
+  - Name: "\u30D7\u30E9\u30C1\u30CA"
+    ID: 77
+    Level: 70
+    HP: 1000
+    SP: 200
+    Attack: 100
+    Defence: 100
+    Magic: 100
+    MagicDef: 100
+    Speed: 100
+    Money: 3000
+    Exp: 3000
+    Equip: 0
+    Skill: 00000000010000004a00000042000000050000000c000000020000002e000000
+    Character: 0500000005000000
+    Item: 
+    Rate: 
+    GetDiff: -5
+  - Name: "\u6C34\u9280"
+    ID: 75
+    Level: 44
+    HP: 100
+    SP: 50
+    Attack: 50
+    Defence: 50
+    Magic: 50
+    MagicDef: 50
+    Speed: 50
+    Money: 150
+    Exp: 150
+    Equip: 0
+    Skill: 00000000010000004a0000006400000012000000
+    Character: 05000000
+    Item: 
+    Rate: 
+    GetDiff: 6
+  - Name: "\u30AF\u30ED\u30E0"
+    ID: 115
+    Level: 17
+    HP: -10
+    SP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Money: 43
+    Exp: 53
+    Equip: 0
+    Skill: 00000000010000004a000000210000003100000002000000
+    Character: 020000000200000002000000
+    Item: 
+    Rate: 
+    GetDiff: 6
+  - Name: "\u904E\u30DE\u30F3\u30AC\u30F3\u9178\u30AB\u30EA\u30A6\u30E0"
+    ID: 137
+    Level: 10
+    HP: -10
+    SP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Money: 27
+    Exp: 29
+    Equip: 0
+    Skill: 00000000010000004f00000021000000
+    Character: 0200000001000000
+    Item: 
+    Rate: 
+    GetDiff: 6
+  - Name: "\u30AF\u30ED\u30E0\u9178\u925B"
+    ID: 101
+    Level: 5
+    HP: -30
+    SP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Money: 17
+    Exp: 20
+    Equip: 0
+    Skill: 00000000010000000b000000
+    Character: 02000000
+    Item: 
+    Rate: 
+    GetDiff: 7
+  - Name: "\u30AF\u30ED\u30E0\u9178\u30D0\u30EA\u30A6\u30E0"
+    ID: 100
+    Level: 23
+    HP: 20
+    SP: 20
+    Attack: 20
+    Defence: 20
+    Magic: 20
+    MagicDef: 20
+    Speed: 20
+    Money: 64
+    Exp: 94
+    Equip: 0
+    Skill: 00000000010000003e000000
+    Character: 0200000003000000
+    Item: 
+    Rate: 
+    GetDiff: 6
+  - Name: "\u30C7\u30D0\u30C3\u30B01"
+    ID: 1
+    Level: 1
+    HP: 0
+    SP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Money: 0
+    Exp: 0
+    Equip: 0
+    Skill: 0000000001000000
+    Character: 01000000010000000100000001000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u30C7\u30D0\u30C3\u30B02"
+    ID: 1
+    Level: 1
+    HP: 0
+    SP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Money: 0
+    Exp: 0
+    Equip: 0
+    Skill: 0000000001000000
+    Character: 01000000010000000100000001000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u30C7\u30D0\u30C3\u30B03"
+    ID: 1
+    Level: 1
+    HP: 0
+    SP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Money: 0
+    Exp: 0
+    Equip: 0
+    Skill: 0000000001000000
+    Character: 01000000010000000100000001000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u30C7\u30D0\u30C3\u30B04"
+    ID: 1
+    Level: 1
+    HP: 0
+    SP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Money: 0
+    Exp: 0
+    Equip: 0
+    Skill: 0000000001000000
+    Character: 01000000010000000100000001000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u30C8\u30BF\u30F3"
+    ID: 1
+    Level: 1
+    HP: 0
+    SP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Money: 0
+    Exp: 0
+    Equip: 0
+    Skill: 00000000010000000c0000000f000000150000001800000023000000240000001b00000012000000
+    Character: 01000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u30B7\u30EA\u30AB\u30B2\u30EB"
+    ID: 1
+    Level: 1
+    HP: 0
+    SP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Money: 0
+    Exp: 0
+    Equip: 0
+    Skill: 00000000010000000500000008000000090000000f00000018000000220000002300000047000000
+    Character: 01000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u91D1"
+    ID: 1
+    Level: 1
+    HP: 0
+    SP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Money: 0
+    Exp: 0
+    Equip: 0
+    Skill: 00000000010000004a000000070000004200000022000000120000000c000000
+    Character: 01000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u738B\u6C34"
+    ID: 1
+    Level: 1
+    HP: 0
+    SP: 0
+    Attack: 0
+    Defence: 0
+    Magic: 0
+    MagicDef: 0
+    Speed: 0
+    Money: 0
+    Exp: 0
+    Equip: 0
+    Skill: 0000000001000000070000000f000000180000001c0000002e000000510000003b00000023000000
+    Character: 010000000100000001000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u3055\u3089\u3057\u7C89"
+    ID: 104
+    Level: 13
+    HP: 100
+    SP: 100
+    Attack: 0
+    Defence: 10
+    Magic: 10
+    MagicDef: 0
+    Speed: 10
+    Money: 200
+    Exp: 100
+    Equip: 0
+    Skill: 00000000010000004f00000023000000
+    Character: 02000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u9AD8\u5EA6\u3055\u3089\u3057\u7C89"
+    ID: 105
+    Level: 13
+    HP: 100
+    SP: 100
+    Attack: 0
+    Defence: 10
+    Magic: 10
+    MagicDef: 0
+    Speed: 10
+    Money: 200
+    Exp: 100
+    Equip: 0
+    Skill: 00000000010000004f000000290000005d000000
+    Character: 02000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u30D5\u30C3\u5316\u6C34\u7D20"
+    ID: 121
+    Level: 20
+    HP: 100
+    SP: 100
+    Attack: 20
+    Defence: 20
+    Magic: 20
+    MagicDef: 20
+    Speed: 20
+    Money: 200
+    Exp: 100
+    Equip: 0
+    Skill: 00000000010000003d0000004d000000
+    Character: 020000000400000002000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u5869\u5316\u6C34\u7D20"
+    ID: 110
+    Level: 20
+    HP: 100
+    SP: 100
+    Attack: 20
+    Defence: 20
+    Magic: 20
+    MagicDef: 20
+    Speed: 20
+    Money: 200
+    Exp: 100
+    Equip: 0
+    Skill: 0000000001000000250000002e000000
+    Character: 020000000200000002000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u30E8\u30A6\u5316\u6C34\u7D20"
+    ID: 127
+    Level: 20
+    HP: 100
+    SP: 100
+    Attack: 20
+    Defence: 20
+    Magic: 20
+    MagicDef: 20
+    Speed: 20
+    Money: 200
+    Exp: 100
+    Equip: 0
+    Skill: 00000000010000004d00000021000000
+    Character: 03000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u81ED\u5316\u6C34\u7D20"
+    ID: 45
+    Level: 20
+    HP: 100
+    SP: 100
+    Attack: 20
+    Defence: 20
+    Magic: 20
+    MagicDef: 20
+    Speed: 20
+    Money: 200
+    Exp: 100
+    Equip: 0
+    Skill: 00000000010000003b0000002c0000001d0000002a000000
+    Character: 0200000002000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u4E00\u9178\u5316\u7A92\u7D20"
+    ID: 134
+    Level: 28
+    HP: 200
+    SP: 100
+    Attack: 30
+    Defence: 30
+    Magic: 30
+    MagicDef: 30
+    Speed: 30
+    Money: 300
+    Exp: 200
+    Equip: 0
+    Skill: 00000000010000003f0000003a0000000e000000
+    Character: 0200000004000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u6B21\u4E9C\u5869\u7D20\u9178"
+    ID: 114
+    Level: 28
+    HP: 200
+    SP: 100
+    Attack: 30
+    Defence: 30
+    Magic: 30
+    MagicDef: 30
+    Speed: 30
+    Money: 300
+    Exp: 200
+    Equip: 0
+    Skill: 00000000010000004f000000140000001c000000
+    Character: 020000000200000003000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u4E8C\u9178\u5316\u7A92\u7D20"
+    ID: 135
+    Level: 28
+    HP: 200
+    SP: 100
+    Attack: 30
+    Defence: 30
+    Magic: 30
+    MagicDef: 30
+    Speed: 30
+    Money: 300
+    Exp: 200
+    Equip: 0
+    Skill: 00000000010000003f0000003a0000000e000000
+    Character: 0200000004000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u30D5\u30C3\u5316\u9280"
+    ID: 98
+    Level: 34
+    HP: 200
+    SP: 100
+    Attack: 40
+    Defence: 40
+    Magic: 40
+    MagicDef: 40
+    Speed: 40
+    Money: 400
+    Exp: 300
+    Equip: 0
+    Skill: 00000000010000002c0000002b00000011000000
+    Character: 05000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u5869\u5316\u9280"
+    ID: 94
+    Level: 34
+    HP: 200
+    SP: 100
+    Attack: 40
+    Defence: 40
+    Magic: 40
+    MagicDef: 40
+    Speed: 40
+    Money: 400
+    Exp: 300
+    Equip: 0
+    Skill: 0000000001000000230000001a00000007000000
+    Character: 05000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u30E8\u30A6\u5316\u9280"
+    ID: 96
+    Level: 34
+    HP: 200
+    SP: 100
+    Attack: 40
+    Defence: 40
+    Magic: 40
+    MagicDef: 40
+    Speed: 40
+    Money: 400
+    Exp: 300
+    Equip: 0
+    Skill: 0000000001000000240000000b0000001d000000
+    Character: 05000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u81ED\u5316\u9280"
+    ID: 93
+    Level: 34
+    HP: 200
+    SP: 100
+    Attack: 40
+    Defence: 40
+    Magic: 40
+    MagicDef: 40
+    Speed: 40
+    Money: 400
+    Exp: 300
+    Equip: 0
+    Skill: 0000000001000000220000001400000030000000
+    Character: 05000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u659C\u65B9\u786B\u9EC4"
+    ID: 2
+    Level: 43
+    HP: 300
+    SP: 200
+    Attack: 40
+    Defence: 40
+    Magic: 40
+    MagicDef: 40
+    Speed: 40
+    Money: 500
+    Exp: 400
+    Equip: 0
+    Skill: 0000000001000000650000000a0000002f000000130000002300000061000000
+    Character: 0300000004000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u5358\u659C\u786B\u9EC4"
+    ID: 3
+    Level: 43
+    HP: 300
+    SP: 200
+    Attack: 40
+    Defence: 40
+    Magic: 40
+    MagicDef: 40
+    Speed: 40
+    Money: 500
+    Exp: 400
+    Equip: 0
+    Skill: 0000000001000000650000000b0000002e000000140000002800000061000000
+    Character: 050000000300000003000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u30B4\u30E0\u72B6\u786B\u9EC4"
+    ID: 13
+    Level: 43
+    HP: 300
+    SP: 200
+    Attack: 40
+    Defence: 40
+    Magic: 40
+    MagicDef: 40
+    Speed: 40
+    Money: 500
+    Exp: 400
+    Equip: 0
+    Skill: 000000000100000061000000650000000c0000001500000023000000280000002d000000
+    Character: 04000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u9752\u9285"
+    ID: 155
+    Level: 70
+    HP: 1000
+    SP: 300
+    Attack: 80
+    Defence: 50
+    Magic: 80
+    MagicDef: 50
+    Speed: 50
+    Money: 800
+    Exp: 900
+    Equip: 0
+    Skill: 00000000010000004a000000210000002e000000
+    Character: 05000000
+    Item: 
+    Rate: 
+    GetDiff: -100
+  - Name: "\u9EC4\u9285"
+    ID: 161
+    Level: 70
+    HP: 1000
+    SP: 300
+    Attack: 80
+    Defence: 50
+    Magic: 80
+    MagicDef: 50
+    Speed: 50
+    Money: 800
+    Exp: 900
+    Equip: 0
+    Skill: 00000000010000004a000000210000001b000000
+    Character: 05000000
+    Item: 
+    Rate: 
+    GetDiff: -100
