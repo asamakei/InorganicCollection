@@ -1,4 +1,4 @@
-# InorganicCollection
+# 無機コレクト
 スマートフォン向けRPGアプリ「無機コレクト」のUnityプロジェクト
 
 AppStore, GooglePlayにて公開中  
